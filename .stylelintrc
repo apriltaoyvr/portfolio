@@ -1,0 +1,11 @@
+{
+  "extends": [
+    "stylelint-config-recommended",
+    "stylelint-config-concentric-order",
+    "stylelint-config-styled-components"
+  ],
+  "customSyntax": "postcss-jsx",
+  "rules": {
+    "function-no-unknown": null
+  }
+}

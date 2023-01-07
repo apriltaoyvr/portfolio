@@ -1,0 +1,48 @@
+{
+  "ambrosialab": {
+    "paragraph": [
+      "Un site Web créé et repensé pour la société italienne de recherche et développement, AmbrosiaLab. Leur objectif principal est la cosmétique et la recherche alimentaire, alors l'idée d'utiliser des fleurs et des couleurs chaudes et naturelles m'est venue immédiatement",
+      "Les recherches d'AmbrosiaLab portent principalement sur les cosmétiques et l'alimentation. Ils sont également fiers d'être une entreprise principalement composée de femmes. Je voulais quelque chose de féminin mais avec une emphase sur la nature et la beauté aussi. Alors l'idée d'utiliser des fleurs et des couleurs pêche m'est venue.",
+      "Pour donner au site une sensation de fraîcheur, j'ai créé une barre de navigation verticale sur le côté droit du site (pour les utilisateurs de bureau) au lieu d'une barre de navigation horizontale standard.",
+      "En raison de leur portée internationale et de leurs partenaires, j'ai inclus la localisation via i18n. Le site est disponible en anglais et en italien et il existe un cadre pour inclure également les futures langues"
+    ]
+  },
+  "draculafoundry": {
+    "alt": [
+      "Une capture d'écran de Dracula Foundry avec d'autres fenêtres ouvertes",
+      "Une capture d'écran de Dracula Foundry avec la chatbox et les portraits de combat visibles"
+    ],
+    "paragraph": [
+      "TyphonJS m'a guidé dans la création du module. Il m'avait également présenté et enseigné Sass/SCSS. À partir de là, j'ai pu créer le thème de Foundry.",
+      "C'était une expérience de formes, de lignes et de couleurs. J'ai créé une palette sécurisée daltonienne pour représenter les niveaux les plus élevés, moyens et les plus bas dans un exemple de scénario. C'était une joie de travailler dessus."
+    ]
+  },
+  "levels101": {
+    "alt": [
+      "Une capture d'écran de la section d'introduction",
+      "Une capture d'écran de la section de base avec plusieurs rectangles colorés"
+    ],
+    "paragraph": [
+      "Ma première page. Je l'ai créé pour expliquer les concepts du module Levels Foundry Virtual Tabletop.",
+      "C'était une expérience de formes, de lignes et de couleurs. J'ai créé une palette sécurisée daltonienne pour représenter les niveaux les plus élevés, moyens et les plus bas dans un exemple de scénario. C'était une joie de travailler dessus."
+    ]
+  },
+  "terrascape": {
+    "alt": [
+      "Une capture d'écran de Terrascape"
+    ],
+    "paragraph": [
+      "Un projet auquel j'ai participé pour theripper93. Les éléments UI/UX ont été inspirés par l'esthétique Outrun et Synthwave."
+    ]
+  },
+  "theripper93": {
+    "alt": [
+      "Une capture d'écran de la liste des modules, montrant les éléments dans une grille",
+      "Une capture d'écran de la page de contact dans un miel d'or"
+    ],
+    "paragraph": [
+      "theripper93 est un programmeur et développeur spécialisé dans les modules pour Foundry Virtual Tabletop. Avec plus de 40 modules, il y avait beaucoup à concevoir et à adapter. L'objectif principal était de présenter la diversité de son travail d'une manière facile d'accès",
+      "Il a demandé un design minimal et simple pour son site Web. Pour les couleurs, j'ai opté pour des bruns et des dorés miel pour créer un site Web terrestre, professionnel, mais accrocheur."
+    ]
+  }
+}

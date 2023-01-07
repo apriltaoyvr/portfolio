@@ -1,0 +1,48 @@
+{
+  "ambrosialab": {
+    "paragraph": [
+      "A website created and redesigned for Italian research and development company, AmbrosiaLab. Their primary focus is on cosmetics and food research, so the idea of using flowers and warm, natural colours came to me immediately.",
+      "AmbrosiaLab's research is primarily on cosmetics and food. They also pride themselves on being a primarily female-staffed company. I wanted something feminine but with an emphasis of nature and beauty to it as well. So the idea of using flowers and peachy colours came to me.",
+      "To give the site a fresh feeling, I created a vertical navigation bar on the right-hand side of the site (for desktop users) in lieu of a standard horizontal navigation bar.",
+      "Because of their international reach and partners, I included localization via i18n. The site is available in English and Italian and there is the framework for including future languages as well"
+    ]
+  },
+  "theripper93": {
+    "paragraph": [
+      "theripper93 is a programmer and developer who specialises in modules for Foundry Virtual Tabletop. With over 40 modules, there was plenty to design and accomodate for. The primary focus was showcasing the diversity of his work in an easy to access manner.",
+      "He requested a minimal and simple design for his website. For the colours, I decided on browns and honey golds to create an earthly, professional, but eyecatching website."
+    ],
+    "alt": [
+      "A screenshot of the modules list, showing the items in a grid",
+      "A screenshot of the contact page in a honey gold"
+    ]
+  },
+  "levels101": {
+    "paragraph": [
+      "My first page. I created it to explain the concepts of the Levels Foundry Virtual Tabletop module.",
+      "It was an experiment in shapes, lines, and colour. I created a colour-blind safe palette to represent highest, middle, and lowest levels in an example scenario. It was a joy to work on."
+    ],
+    "alt": [
+      "A screenshot of intro section",
+      "A screenshot of basics section with multiple coloured rectangles"
+    ]
+  },
+  "draculafoundry": {
+    "paragraph": [
+      "A module I created for Foundry Virtual Tabletop. I wanted a dark UI for the program and have a strong love for the Dracula palette.",
+      "TyphonJS guided me through the creation of the module. He had also introduced and taught me Sass/SCSS. From there, I was able to create the theme for Foundry."
+    ],
+    "alt": [
+      "A screenshot of Dracula Foundry with other windows open",
+      "A screenshot of Dracula Foundry with the chatbox and combat portraits visible"
+    ]
+  },
+  "terrascape": {
+    "paragraph": [
+      "A project I assisted with for theripper93. The UI/UX elements were inspired by Outrun and Synthwave aesthetics."
+    ],
+    "alt": [
+      "A screenshot of Terrascape"
+    ]
+  }
+}
