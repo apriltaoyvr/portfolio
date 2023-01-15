@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  /* Typography */
+  h1, h2, h3, h4, h5, h6 {
+    @apply mb-2.5;
+  }
+  h2, h3, h4, h5, h6 {
+    @apply font-semibold;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    @apply tracking-tighter;
+  }
+
+  h5, h6 {
+    @apply tracking-tight;
+  }
+
+  h1 {
+    @apply font-bold leading-6 text-5xl;
+  }
+
+  h2 {
+    @apply text-4xl;
+  }
+
+  h3 {
+    @apply text-2xl;
+  }
+
+  h4 {
+    @apply text-xl;
+  }
+
+  h6 {
+    @apply text-sm;
+  }
+
+  p {
+    @apply max-w-prose text-base leading-7;
+  }
+
+  a {
+    @apply text-blue-600;
+  }
+}
+
+@layer components {
+  .underline-thick {
+    @apply underline decoration-8	underline-offset-8 decoration-pink-600 mb-8;
+  }
+}
+
+@layer utilities {
+  .center {
+    @apply flex place-content-center place-items-center;
+  }
+}
