@@ -4,10 +4,19 @@
 
 @layer base {
   /* Typography */
-  h1, h2, h3, h4, h5, h6 {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
     @apply mb-2.5;
   }
-  h2, h3, h4, h5, h6 {
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
     @apply font-semibold;
   }
 
@@ -18,12 +27,13 @@
     @apply tracking-tighter;
   }
 
-  h5, h6 {
+  h5,
+  h6 {
     @apply tracking-tight;
   }
 
   h1 {
-    @apply font-bold leading-6 text-5xl;
+    @apply text-5xl font-bold leading-6;
   }
 
   h2 {
@@ -53,7 +63,7 @@
 
 @layer components {
   .underline-thick {
-    @apply underline decoration-8	underline-offset-8 decoration-pink-600 mb-8;
+    @apply mb-8 underline	decoration-pink-600 decoration-8 underline-offset-8;
   }
 }
 
