@@ -1,0 +1,13 @@
+extends:
+  - 'stylelint-config-recommended'
+  - 'stylelint-config-clean-order'
+  - 'stylelint-config-styled-components'
+customSyntax: '@stylelint/postcss-css-in-js'
+ignoreFiles: 
+  - node_modules/**/*
+  - .yarn/**/*
+rules:
+  # Necessary for SC
+  function-no-unknown: null
+  string-quotes: single
+

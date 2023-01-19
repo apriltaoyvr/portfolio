@@ -1,3 +1,13 @@
 {
-  "extends": "next/core-web-vitals"
+  "parser": "@typescript-eslint/parser",
+  "extends": ["next/core-web-vitals"],
+  "plugins": ["jsx-a11y", "@typescript-eslint"],
+  "rules": {
+    "react/jsx-sort-props": [
+      1,
+      {
+        "shorthandLast": true
+      }
+    ]
+  }
 }

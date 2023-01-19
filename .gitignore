@@ -7,6 +7,9 @@
 /.pnp
 .pnp.*
 
+# IDEs
+/.vscode
+
 # testing
 /coverage
 
@@ -20,7 +23,6 @@
 # misc
 .DS_Store
 *.pem
-.vscode
 
 # debug
 npm-debug.log*
