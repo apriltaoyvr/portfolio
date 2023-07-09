@@ -1,5 +1,5 @@
 'use client';
-import { Image } from '@nextui-org/react';
+import { Image, Link } from '@nextui-org/react';
 import ProjectCard from '@/components/ProjectCard';
 import projects from './projects.json';
 
@@ -74,7 +74,7 @@ export default function Home() {
       </section>
       <section></section>
       <footer className='flex max-h-min w-full place-content-center place-items-center border-t-[1px] border-black/10 p-4 font-sans text-sm dark:border-white/10'>
-        <p>Brand icons by Simple Icons</p>
+        <p>Brand icons by <Link href='https://simpleicons.org' color='secondary' isExternal>Simple Icons</Link></p>
       </footer>
     </main>
   );

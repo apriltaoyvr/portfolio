@@ -6,7 +6,7 @@ export default function Loading() {
     <Progress
       aria-label='Loading...'
       size='sm'
-      color='primary'
+      color='secondary'
       className='min-w-full'
       isIndeterminate
     />
