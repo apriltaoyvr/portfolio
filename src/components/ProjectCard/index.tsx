@@ -8,20 +8,11 @@ import {
   Link,
 } from '@nextui-org/react';
 import NextImage from 'next/image';
+import type { IProject } from '@/types';
 
-export default function ProjectCard({
-  src,
-  href,
-  title,
-  subtitle,
-  frameworks,
-}: {
-  src: string;
-  href: string;
-  title: string;
-  subtitle: string;
-  frameworks: { src: string; name: string }[];
-}) {
+export default function ProjectCard({project}: {project: IProject}) {
+  const {href, src, title, subtitle, frameworks} = project;
+
   return (
     <Card as={Link} href={href} shadow='sm' isPressable>
       <CardBody className='overflow-visible p-0'>
@@ -42,7 +33,7 @@ export default function ProjectCard({
           {title}
         </span>
         <p className='mb-2 font-grotesque text-lg font-semibold'>{subtitle}</p>
-        <footer className='flex flex-row gap-2'>
+        <footer className='flex flex-row place-items-center gap-2'>
           {frameworks.map((framework) => (
             <Image
               key={framework.name}
@@ -50,7 +41,6 @@ export default function ProjectCard({
               alt={framework.name}
               height={25}
               width={25}
-              isBlurred
             />
           ))}
         </footer>

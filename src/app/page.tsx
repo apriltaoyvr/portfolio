@@ -1,6 +1,7 @@
 'use client';
 import { Image } from '@nextui-org/react';
 import ProjectCard from '@/components/ProjectCard';
+import projects from './projects.json';
 
 export default function Home() {
   return (
@@ -11,49 +12,9 @@ export default function Home() {
       <section className='mb-2 flex flex-col p-4'>
         <h2>Projects</h2>
         <div className='flex flex-wrap place-content-center place-items-center gap-2'>
-          <ProjectCard
-            src='https://user-images.githubusercontent.com/95392008/201547099-a89f4b0e-692f-4b29-990e-ecf081b9bba8.png'
-            href='https://www.ambrosialab.it/en'
-            title='AmbrosiaLab'
-            subtitle='A website for Italian research company AmbrosiaLab'
-            frameworks={[
-              { src: '/icons/react.svg', name: 'React' },
-              { src: '/icons/typescript.svg', name: 'Typescript' },
-              { src: '/icons/styledcomponents.svg', name: 'Styled Components' },
-            ]}
-          />
-          <ProjectCard
-            src='https://user-images.githubusercontent.com/95392008/252136157-ce6380fb-5161-4767-866c-f7fcbb8b08f0.png'
-            href='https://alice-i18n.vercel.app/'
-            title='Alice i18n'
-            subtitle='An online i18n version of Alice in Wonderland'
-            frameworks={[
-              { src: '/icons/astro.svg', name: 'Astro' },
-              { src: '/icons/typescript.svg', name: 'Typescript' },
-              { src: '/icons/tailwindcss.svg', name: 'TailwindCSS' },
-            ]}
-          />
-          <ProjectCard
-            src='https://user-images.githubusercontent.com/1346839/205125380-9fbe6625-64a2-4d21-b114-5c509bbac716.png'
-            href='https://theripper93.com/'
-            title='TheRipper93'
-            subtitle='A website for developer TheRipper93'
-            frameworks={[
-              { src: '/icons/react.svg', name: 'React' },
-              { src: '/icons/typescript.svg', name: 'Typescript' },
-              { src: '/icons/mui.svg', name: 'MUI' },
-            ]}
-          />
-          <ProjectCard
-            src='https://raw.githubusercontent.com/apriltaoyvr/apriltao.art/main/src/images/theripper93-wiki/preview.png'
-            href='https://wiki.theripper93.com/'
-            title='TheRipper93 Wiki'
-            subtitle='A wiki for developer TheRipper93'
-            frameworks={[
-              { src: '/icons/react.svg', name: 'React' },
-              { src: '/icons/typescript.svg', name: 'Typescript' },
-            ]}
-          />
+          {projects.map((project) =>
+            <ProjectCard project={project} key={project.title} />
+          )}
         </div>
       </section>
       <section className='mb-2 flex flex-col place-content-center place-items-center gap-2'>
@@ -85,15 +46,9 @@ export default function Home() {
             <section>
               <h3>Skills</h3>
               <section>
-                <h4>Frameworks</h4>
-                <ul>
-                  <li>ReactJS (NextJS)</li>
-                  <li>Astro</li>
-                </ul>
-              </section>
-              <section>
                 <h4>Javascript</h4>
                 <ul>
+                  <li>ReactJS (NextJS)</li>
                   <li>Typescript</li>
                   <li>jQuery</li>
                 </ul>
@@ -101,9 +56,15 @@ export default function Home() {
               <section>
                 <h4>Styling</h4>
                 <ul>
-                  <li>MUI</li>
                   <li>TailwindCSS</li>
                   <li>Styled Components</li>
+                  <li>MUI</li>
+                </ul>
+              </section>
+              <section>
+                <h4>Other</h4>
+                <ul>                  
+                  <li>Astro</li>
                   <li>GraphQL</li>
                 </ul>
               </section>
