@@ -4,6 +4,7 @@ import {
   CardHeader,
   CardBody,
   CardFooter,
+  Divider,
   Image,
   Link,
 } from '@nextui-org/react';
@@ -14,8 +15,8 @@ export default function ProjectCard({ project }: { project: IProject }) {
   const { href, src, title, subtitle, frameworks } = project;
 
   return (
-    <Card as={Link} href={href} shadow='sm' isPressable>
-      <CardBody className='overflow-visible p-0'>
+    <Card as={Link} href={href} shadow='md' isHoverable isPressable>
+      <CardHeader className='flex min-w-full flex-col place-content-center p-0'>
         <Image
           as={NextImage}
           src={src}
@@ -27,12 +28,13 @@ export default function ProjectCard({ project }: { project: IProject }) {
           width={1920}
           height={1080}
         />
+      </CardHeader>
+      <CardBody className='text-center'>
+        <span className='font-grotesque text-2xl font-bold'>{title}</span>
+        <p className='font-grotesque text-lg font-semibold'>{subtitle}</p>
       </CardBody>
+      <Divider />
       <CardFooter className='flex min-w-full flex-col place-content-center'>
-        <span className='text-center font-grotesque text-2xl font-bold'>
-          {title}
-        </span>
-        <p className='mb-2 font-grotesque text-lg font-semibold'>{subtitle}</p>
         <footer className='flex flex-row place-items-center gap-2'>
           {frameworks.map((framework) => (
             <Image

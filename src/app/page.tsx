@@ -22,13 +22,13 @@ export default function Home() {
         <div className='grid grid-cols-2 gap-4'>
           <figure className='flex flex-col place-content-center place-items-center'>
             <Image
+              src='https://res.cloudinary.com/dsbhmynmq/image/upload/v1668374078/April%20Tao/Images/me_fzw1n4.webp'
               width={300}
               alt='A photo of myself'
-              src='https://res.cloudinary.com/dsbhmynmq/image/upload/v1668374078/April%20Tao/Images/me_fzw1n4.webp'
-              isBlurred
               shadow='sm'
               radius='lg'
               className='border-[1px] dark:border-neutral-100/10'
+              isBlurred
             />
             <figcaption className='mt-2 text-sm'>
               Photo by Frank Sala
