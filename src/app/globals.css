@@ -6,4 +6,52 @@
   body {
     @apply bg-black text-white;
   }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-grotesque text-center font-bold;
+  }
+
+  h1,
+  h2 {
+    @apply font-bold mb-4;
+  }
+
+  h3, h4 {
+    @apply mb-1;
+  }
+
+  h1 {
+    @apply text-6xl;
+  }
+
+  h2 {
+    @apply text-4xl;
+  }
+
+  h3 {
+    @apply text-2xl;
+  }
+
+  h4 {
+    @apply text-xl;
+  }
+
+  p {
+    @apply font-sans max-w-prose;
+  }
+
+  ul {
+    @apply mb-1;
+  }
+  
+  ul li:before {
+    color: hsl(264, 46%, 70%);
+    content: '↗';
+    margin: 0 0.25em;
+  }
 }

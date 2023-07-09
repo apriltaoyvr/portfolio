@@ -3,8 +3,16 @@ import Providers from './providers';
 import Navbar from '@/components/Navbar';
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
+import { Darker_Grotesque } from 'next/font/google';
 
-const inter = Inter({ subsets: ['latin'] });
+const inter = Inter({
+  subsets: ['latin'],
+  variable: '--font-inter',
+});
+const grotesque = Darker_Grotesque({
+  subsets: ['latin'],
+  variable: '--font-darker-grotesque',
+});
 
 export const metadata: Metadata = {
   title: {
@@ -21,9 +29,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang='en' className='dark'>
-      <body className={inter.className}>
+      <body className={`${inter.variable} ${grotesque.variable}`}>
         <Providers>
-          <Navbar /> 
+          <Navbar />
           {children}
         </Providers>
       </body>
