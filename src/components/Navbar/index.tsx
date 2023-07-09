@@ -37,11 +37,11 @@ export default function Navbar() {
               src={icon}
               alt='Home button'
               aria-label='Home button'
-              className='w-6 aspect-square'
+              className='aspect-square w-6'
               draggable='false'
             />
           </MotionLink>
-          <span className='font-bold ml-2 text-xl font-sans'>April</span>
+          <span className='ml-2 font-sans text-xl font-bold'>April</span>
         </NavbarBrand>
       </NavbarContent>
       <NavbarContent justify='end'>
@@ -57,7 +57,7 @@ export default function Navbar() {
             height='96'
             viewBox='0 0 100 100'
             xmlns='http://www.w3.org/2000/svg'
-            className='w-6 aspect-square'
+            className='aspect-square w-6'
           >
             <path
               fill-rule='evenodd'

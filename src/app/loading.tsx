@@ -1,4 +1,4 @@
-'use client'
+'use client';
 import { Progress } from '@nextui-org/react';
 
 export default function Loading() {

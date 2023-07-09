@@ -17,7 +17,7 @@ const grotesque = Darker_Grotesque({
 export const metadata: Metadata = {
   title: {
     template: '%s | April Tao',
-    default: 'April Tao'
+    default: 'April Tao',
   },
   description: 'Web developer and designer',
 };

@@ -13,15 +13,16 @@
   h4,
   h5,
   h6 {
-    @apply font-grotesque text-center font-bold;
+    @apply text-center font-grotesque font-bold;
   }
 
   h1,
   h2 {
-    @apply font-bold mb-4;
+    @apply mb-4 font-bold;
   }
 
-  h3, h4 {
+  h3,
+  h4 {
     @apply mb-1;
   }
 
@@ -42,13 +43,13 @@
   }
 
   p {
-    @apply font-sans max-w-prose;
+    @apply max-w-prose font-sans;
   }
 
   ul {
     @apply mb-1;
   }
-  
+
   ul li:before {
     color: hsl(264, 46%, 70%);
     content: '↗';

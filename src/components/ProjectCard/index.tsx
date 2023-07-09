@@ -29,7 +29,7 @@ export default function ProjectCard({
           as={NextImage}
           src={src}
           alt={`A photo of ${title}`}
-          className='w-full object-cover aspect-video h-[240px]'
+          className='aspect-video h-[240px] w-full object-cover'
           shadow='sm'
           radius='lg'
           isBlurred
@@ -37,11 +37,11 @@ export default function ProjectCard({
           height={1080}
         />
       </CardBody>
-      <CardFooter className='flex flex-col min-w-full place-content-center'>
-        <span className='text-2xl text-center font-bold font-grotesque'>
+      <CardFooter className='flex min-w-full flex-col place-content-center'>
+        <span className='text-center font-grotesque text-2xl font-bold'>
           {title}
         </span>
-        <p className='text-lg font-grotesque font-semibold mb-2'>{subtitle}</p>
+        <p className='mb-2 font-grotesque text-lg font-semibold'>{subtitle}</p>
         <footer className='flex flex-row gap-2'>
           {frameworks.map((framework) => (
             <Image

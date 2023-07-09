@@ -8,7 +8,7 @@ export default function Home() {
       <header className='min-w-full text-center'>
         <h1>Portfolio</h1>
       </header>
-      <section className='p-4 flex flex-col mb-2'>
+      <section className='mb-2 flex flex-col p-4'>
         <h2>Projects</h2>
         <div className='flex flex-wrap place-content-center place-items-center gap-2'>
           <ProjectCard
@@ -18,6 +18,7 @@ export default function Home() {
             subtitle='A website for Italian research company AmbrosiaLab'
             frameworks={[
               { src: '/icons/react.svg', name: 'React' },
+              { src: '/icons/typescript.svg', name: 'Typescript' },
               { src: '/icons/styledcomponents.svg', name: 'Styled Components' },
             ]}
           />
@@ -28,6 +29,7 @@ export default function Home() {
             subtitle='An online i18n version of Alice in Wonderland'
             frameworks={[
               { src: '/icons/astro.svg', name: 'Astro' },
+              { src: '/icons/typescript.svg', name: 'Typescript' },
               { src: '/icons/tailwindcss.svg', name: 'TailwindCSS' },
             ]}
           />
@@ -38,6 +40,7 @@ export default function Home() {
             subtitle='A website for developer TheRipper93'
             frameworks={[
               { src: '/icons/react.svg', name: 'React' },
+              { src: '/icons/typescript.svg', name: 'Typescript' },
               { src: '/icons/mui.svg', name: 'MUI' },
             ]}
           />
@@ -46,11 +49,14 @@ export default function Home() {
             href='https://wiki.theripper93.com/'
             title='TheRipper93 Wiki'
             subtitle='A wiki for developer TheRipper93'
-            frameworks={[{ src: '/icons/react.svg', name: 'React' }]}
+            frameworks={[
+              { src: '/icons/react.svg', name: 'React' },
+              { src: '/icons/typescript.svg', name: 'Typescript' },
+            ]}
           />
         </div>
       </section>
-      <section className='flex flex-col place-content-center place-items-center gap-2 mb-2'>
+      <section className='mb-2 flex flex-col place-content-center place-items-center gap-2'>
         <h2>About Me</h2>
         <div className='grid grid-cols-2 gap-4'>
           <figure className='flex flex-col place-content-center place-items-center'>
@@ -106,7 +112,7 @@ export default function Home() {
         </div>
       </section>
       <section></section>
-      <footer className='text-sm font-sans w-full border-t-[1px] border-black/10 dark:border-white/10 p-4 flex place-content-center place-items-center max-h-min'>
+      <footer className='flex max-h-min w-full place-content-center place-items-center border-t-[1px] border-black/10 p-4 font-sans text-sm dark:border-white/10'>
         <p>Brand icons by Simple Icons</p>
       </footer>
     </main>
