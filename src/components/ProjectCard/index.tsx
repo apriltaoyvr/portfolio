@@ -10,8 +10,8 @@ import {
 import NextImage from 'next/image';
 import type { IProject } from '@/types';
 
-export default function ProjectCard({project}: {project: IProject}) {
-  const {href, src, title, subtitle, frameworks} = project;
+export default function ProjectCard({ project }: { project: IProject }) {
+  const { href, src, title, subtitle, frameworks } = project;
 
   return (
     <Card as={Link} href={href} shadow='sm' isPressable>

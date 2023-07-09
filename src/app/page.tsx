@@ -12,9 +12,9 @@ export default function Home() {
       <section className='mb-2 flex flex-col p-4'>
         <h2>Projects</h2>
         <div className='flex flex-wrap place-content-center place-items-center gap-2'>
-          {projects.map((project) =>
+          {projects.map((project) => (
             <ProjectCard project={project} key={project.title} />
-          )}
+          ))}
         </div>
       </section>
       <section className='mb-2 flex flex-col place-content-center place-items-center gap-2'>
@@ -63,7 +63,7 @@ export default function Home() {
               </section>
               <section>
                 <h4>Other</h4>
-                <ul>                  
+                <ul>
                   <li>Astro</li>
                   <li>GraphQL</li>
                 </ul>
