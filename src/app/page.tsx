@@ -27,7 +27,7 @@ export default function Home() {
               alt='A photo of myself'
               shadow='sm'
               radius='lg'
-              className='border-[1px] dark:border-neutral-100/10'
+              className='border-[1px] border-neutral-800/10 dark:border-neutral-100/10'
               isBlurred
             />
             <figcaption className='mt-2 text-sm'>
