@@ -17,7 +17,7 @@ module.exports = {
     },
     fontFamily: {
       grotesque: [
-        'var(--font-darker-grotesque)',
+        'var(--font-space-grotesk)',
         ...defaultTheme.fontFamily.sans,
       ],
     },

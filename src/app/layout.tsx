@@ -3,15 +3,16 @@ import Providers from './providers';
 import Navbar from '@/components/Navbar';
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
-import { Darker_Grotesque } from 'next/font/google';
+import { Space_Grotesk } from 'next/font/google';
 
 const inter = Inter({
   subsets: ['latin'],
   variable: '--font-inter',
 });
-const grotesque = Darker_Grotesque({
+
+const grotesque = Space_Grotesk({
   subsets: ['latin'],
-  variable: '--font-darker-grotesque',
+  variable: '--font-space-grotesk',
 });
 
 export const metadata: Metadata = {

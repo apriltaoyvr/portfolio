@@ -30,8 +30,8 @@ export default function ProjectCard({ project }: { project: IProject }) {
         />
       </CardHeader>
       <CardBody className='text-center'>
-        <span className='font-grotesque text-2xl font-bold'>{title}</span>
-        <p className='font-grotesque text-lg font-semibold'>{subtitle}</p>
+        <span className='font-grotesque text-xl font-bold'>{title}</span>
+        <p className='font-grotesque font-semibold'>{subtitle}</p>
       </CardBody>
       <Divider />
       <CardFooter className='flex min-w-full flex-col place-content-center'>

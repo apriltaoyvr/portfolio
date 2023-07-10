@@ -3,7 +3,7 @@
     "src": "https://user-images.githubusercontent.com/95392008/201547099-a89f4b0e-692f-4b29-990e-ecf081b9bba8.png",
     "href": "https://www.ambrosialab.it/en",
     "title": "AmbrosiaLab",
-    "subtitle": "A website for Italian research company AmbrosiaLab",
+    "subtitle": "Italian research company AmbrosiaLab",
     "frameworks": [
       {
         "src": "/icons/react.svg",
@@ -23,7 +23,7 @@
     "src": "https://user-images.githubusercontent.com/1346839/205125380-9fbe6625-64a2-4d21-b114-5c509bbac716.png",
     "href": "https://theripper93.com/",
     "title": "TheRipper93",
-    "subtitle": "A website for developer TheRipper93",
+    "subtitle": "Developer TheRipper93",
     "frameworks": [
       {
         "src": "/icons/react.svg",
@@ -43,7 +43,7 @@
     "src": "https://raw.githubusercontent.com/apriltaoyvr/apriltao.art/main/src/images/theripper93-wiki/preview.png",
     "href": "https://wiki.theripper93.com",
     "title": "TheRipper93 Wiki",
-    "subtitle": "A wiki for developer TheRipper93",
+    "subtitle": "Wiki of developer TheRipper93",
     "frameworks": [
       {
         "src": "/icons/react.svg",
@@ -59,7 +59,7 @@
     "src": "https://user-images.githubusercontent.com/95392008/252136157-ce6380fb-5161-4767-866c-f7fcbb8b08f0.png",
     "href": "https://alice-i18n.vercel.app/",
     "title": "Alice i18n",
-    "subtitle": "An online i18n version of Alice in Wonderland",
+    "subtitle": "Internationalized Alice in Wonderland",
     "frameworks": [
       {
         "src": "/icons/astro.svg",
@@ -79,7 +79,7 @@
     "src": "https://user-images.githubusercontent.com/95392008/252140374-b69b6e5e-8b9b-457c-a154-47f0b30522be.png",
     "href": "https://github.com/apriltaoyvr/decision-bot",
     "title": "Decision Bot",
-    "subtitle": "A Discord bot for making decisions",
+    "subtitle": "Discord bot for making decisions",
     "frameworks": [
       {
         "src": "/icons/discord.svg",
@@ -115,7 +115,7 @@
     "src": "https://user-images.githubusercontent.com/95392008/233385990-617c27f1-0464-4cef-97a0-f0eb307e0a32.png",
     "href": "https://userstyles.world/style/9440/ros-pine-twitter",
     "title": "Rosé Pine Twitter",
-    "subtitle": "A Rose Pine theme for Twitter",
+    "subtitle": "Rose Pine theme for Twitter",
     "frameworks": [
       {
         "src": "/icons/sass.svg",
@@ -127,7 +127,7 @@
     "src": "https://user-images.githubusercontent.com/95392008/147394179-6777840b-3554-4e9c-b4c3-50cd99616ee2.png",
     "href": "https://github.com/apriltaoyvr/dracula-foundry",
     "title": "Dracula Foundry",
-    "subtitle": "A dark theme for FoundryVTT",
+    "subtitle": "Dark theme for FoundryVTT",
     "frameworks": [
       {
         "src": "/icons/sass.svg",
