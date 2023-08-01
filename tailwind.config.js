@@ -16,21 +16,61 @@ module.exports = {
       },
     },
     fontFamily: {
-      grotesque: [
-        'var(--font-space-grotesk)',
-        ...defaultTheme.fontFamily.sans,
-      ],
+      grotesque: ['var(--font-space-grotesk)', ...defaultTheme.fontFamily.sans],
     },
   },
   darkMode: 'class',
-  plugins: [nextui({
+  plugins: [
+    nextui({
+      defaultTheme: 'rose-pine',
       themes: {
-        light: {
-          primary: "#9353D3",
+        'rose-pine': {
+          extend: 'dark',
+          colors: {
+            background: '#191724',
+            foreground: '#e0def4',
+            divider: 'hsla(248deg, 13%, 36%, 0.15)',
+            focus: '#eb6f92',
+            content1: 'hsl(247deg, 23%, 15%)',
+            content2: 'hsl(247deg, 21%, 19%)',
+            content3: 'hsl(248deg, 25%, 18%)',
+            content4: 'hsl(248deg, 23%, 21%)',
+            primary: {
+              DEFAULT: '#c4a7e7',
+            },
+            secondary: {
+              DEFAULT: '#ebbcba',
+            },
+            tertiary: {
+              DEFAULT: '#9ccfd8',
+            },
+          },
+          layout: {},
         },
-        dark: {
-          primary: "#aa8ed5",
+        'rose-pine-dawn': {
+          extend: 'light',
+          colors: {
+            background: '#faf4ed',
+            foreground: '#575279',
+            divider: 'hsla(248deg, 12%, 52%, 0.15)',
+            focus: '#eb6f92',
+            content1: 'hsl(35deg, 100%, 98%)',
+            content2: 'hsl(35deg, 50%, 96%)',
+            content3: '#dfdad9',
+            content4: '#cecacd',
+            primary: {
+              DEFAULT: '#907aa9',
+            },
+            secondary: {
+              DEFAULT: '#d7827e',
+            },
+            tertiary: {
+              DEFAULT: '#56949f',
+            },
+          },
+          layout: {},
         },
       },
-    })],
+    }),
+  ],
 };

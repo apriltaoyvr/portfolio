@@ -5,10 +5,6 @@ import {
   NavbarBrand,
   NavbarContent,
   NavbarItem,
-  NavbarMenuToggle,
-  NavbarMenu,
-  NavbarMenuItem,
-  Button,
   Link,
 } from '@nextui-org/react';
 import Image from 'next/image';
@@ -18,15 +14,11 @@ import icon from '@/app/icon.png';
 const MotionLink = motion(Link);
 
 export default function Navbar() {
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
+  // const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
     <Nav isBordered shouldHideOnScroll className='font-grotesque'>
       <NavbarContent justify='start' className='mr-4'>
-        <NavbarMenuToggle
-          aria-label={isMenuOpen ? 'Close menu' : 'Open menu'}
-          className='sm:hidden'
-        />
         <NavbarBrand>
           <MotionLink
             href='/'
