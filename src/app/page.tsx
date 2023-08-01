@@ -17,7 +17,7 @@ export default function Home() {
           ))}
         </div>
       </section>
-      <section className='mb-2 p-4 flex flex-col place-content-center place-items-center gap-2'>
+      <section className='mb-2 flex flex-col place-content-center place-items-center gap-2 p-4'>
         <h2>About Me</h2>
         <div className='grid grid-cols-2 gap-4'>
           <figure className='flex flex-col place-content-center place-items-center'>
@@ -35,7 +35,7 @@ export default function Home() {
             </figcaption>
           </figure>
           <article>
-            <section>
+            <section className='list'>
               <h3>Info</h3>
               <ul>
                 <li>A developer from Vancouver, BC</li>
@@ -45,7 +45,7 @@ export default function Home() {
             </section>
             <section>
               <h3>Skills</h3>
-              <section>
+              <section className='list'>
                 <h4>Javascript</h4>
                 <ul>
                   <li>ReactJS (NextJS)</li>
@@ -53,7 +53,7 @@ export default function Home() {
                   <li>jQuery</li>
                 </ul>
               </section>
-              <section>
+              <section className='list'>
                 <h4>Styling</h4>
                 <ul>
                   <li>TailwindCSS</li>
@@ -61,7 +61,7 @@ export default function Home() {
                   <li>MUI</li>
                 </ul>
               </section>
-              <section>
+              <section className='list'>
                 <h4>Other</h4>
                 <ul>
                   <li>Astro</li>
@@ -76,7 +76,12 @@ export default function Home() {
       <footer className='flex max-h-min w-full place-content-center place-items-center border-t-[1px] border-black/10 p-4 font-sans text-sm dark:border-white/10'>
         <p>
           Brand icons by{' '}
-          <Link href='https://simpleicons.org' size='sm' color='primary' isExternal>
+          <Link
+            href='https://simpleicons.org'
+            size='sm'
+            color='primary'
+            isExternal
+          >
             Simple Icons
           </Link>
         </p>

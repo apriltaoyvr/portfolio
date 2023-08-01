@@ -1,26 +1,20 @@
 'use client';
-import { useState } from 'react';
 import {
   Navbar as Nav,
   NavbarBrand,
   NavbarContent,
   NavbarItem,
-  Link,
 } from '@nextui-org/react';
 import Image from 'next/image';
 import { motion } from 'framer-motion';
 import icon from '@/app/icon.png';
 
-const MotionLink = motion(Link);
-
 export default function Navbar() {
-  // const [isMenuOpen, setIsMenuOpen] = useState(false);
-
   return (
     <Nav isBordered shouldHideOnScroll className='font-grotesque'>
       <NavbarContent justify='start' className='mr-4'>
         <NavbarBrand>
-          <MotionLink
+          <motion.a
             href='/'
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.9 }}
@@ -32,13 +26,13 @@ export default function Navbar() {
               className='aspect-square w-6'
               draggable='false'
             />
-          </MotionLink>
+          </motion.a>
           <span className='ml-2 font-sans text-xl font-bold'>April</span>
         </NavbarBrand>
       </NavbarContent>
       <NavbarContent justify='end'>
         <NavbarItem
-          as={MotionLink}
+          as={motion.a}
           color='foreground'
           href='https://github.com/apriltaoyvr'
           whileHover={{ scale: 1.1 }}
