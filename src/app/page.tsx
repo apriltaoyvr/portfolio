@@ -1,7 +1,8 @@
 'use client';
 import { Image, Link } from '@nextui-org/react';
 import ProjectCard from '@/components/ProjectCard';
-import projects from './projects.json';
+import liveSites from '@/data/live.json';
+import otherProjects from '@/data/other.json';
 
 export default function Home() {
   return (
@@ -10,9 +11,17 @@ export default function Home() {
         <h1>Portfolio</h1>
       </header>
       <section className='mb-2 flex flex-col p-4'>
-        <h2>Projects</h2>
+        <h2>Sites</h2>
         <div className='flex flex-wrap place-content-center place-items-center gap-2'>
-          {projects.map((project) => (
+          {liveSites.map((project) => (
+            <ProjectCard project={project} key={project.title} />
+          ))}
+        </div>
+      </section>
+      <section className='mb-2 flex flex-col p-4'>
+        <h2>Other Projects</h2>
+        <div className='flex flex-wrap place-content-center place-items-center gap-2'>
+          {otherProjects.map((project) => (
             <ProjectCard project={project} key={project.title} />
           ))}
         </div>

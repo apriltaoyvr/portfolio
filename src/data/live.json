@@ -40,6 +40,22 @@
     ]
   },
   {
+    "src": "https://user-images.githubusercontent.com/95392008/265441203-e0ed301a-4a71-4bcf-9459-44b017699d2f.png",
+    "href": "https://slime-rancher-graphql.vercel.app/",
+    "title": "Slime Rancher GraphQL",
+    "subtitle": "A GraphQL endpoint for Slime Rancher",
+    "frameworks": [
+      {
+        "src": "/icons/react.svg",
+        "name": "React"
+      },
+      {
+        "src": "/icons/apollographql.svg",
+        "name": "Apollo GraphQL"
+      }
+    ]
+  },
+  {
     "src": "https://raw.githubusercontent.com/apriltaoyvr/apriltao.art/main/src/images/theripper93-wiki/preview.png",
     "href": "https://wiki.theripper93.com",
     "title": "TheRipper93 Wiki",
@@ -72,66 +88,6 @@
       {
         "src": "/icons/tailwindcss.svg",
         "name": "TailwindCSS"
-      }
-    ]
-  },
-  {
-    "src": "https://user-images.githubusercontent.com/95392008/252140374-b69b6e5e-8b9b-457c-a154-47f0b30522be.png",
-    "href": "https://github.com/apriltaoyvr/decision-bot",
-    "title": "Decision Bot",
-    "subtitle": "Discord bot for making decisions",
-    "frameworks": [
-      {
-        "src": "/icons/discord.svg",
-        "name": "Discord"
-      },
-      {
-        "src": "/icons/javascript.svg",
-        "name": "Javascript"
-      }
-    ]
-  },
-  {
-    "src": "https://user-images.githubusercontent.com/95392008/211212607-011290e6-32bb-49eb-9316-9c74f8385706.png",
-    "href": "https://github.com/apriltaoyvr/pokedex/tree/main",
-    "title": "Pokedex",
-    "subtitle": "Implementation of PokeAPI's GraphQL endpoint",
-    "frameworks": [
-      {
-        "src": "/icons/react.svg",
-        "name": "React"
-      },
-      {
-        "src": "/icons/typescript.svg",
-        "name": "Typescript"
-      },
-      {
-        "src": "/icons/graphql.svg",
-        "name": "GraphQL"
-      }
-    ]
-  },
-  {
-    "src": "https://user-images.githubusercontent.com/95392008/233385990-617c27f1-0464-4cef-97a0-f0eb307e0a32.png",
-    "href": "https://userstyles.world/style/9440/ros-pine-twitter",
-    "title": "Rosé Pine Twitter",
-    "subtitle": "Rose Pine theme for Twitter",
-    "frameworks": [
-      {
-        "src": "/icons/sass.svg",
-        "name": "Sass"
-      }
-    ]
-  },
-  {
-    "src": "https://user-images.githubusercontent.com/95392008/147394179-6777840b-3554-4e9c-b4c3-50cd99616ee2.png",
-    "href": "https://github.com/apriltaoyvr/dracula-foundry",
-    "title": "Dracula Foundry",
-    "subtitle": "Dark theme for FoundryVTT",
-    "frameworks": [
-      {
-        "src": "/icons/sass.svg",
-        "name": "Sass"
       }
     ]
   }
