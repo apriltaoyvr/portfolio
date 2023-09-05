@@ -22,10 +22,8 @@ module.exports = {
   darkMode: 'class',
   plugins: [
     nextui({
-      defaultTheme: 'rose-pine',
       themes: {
-        'rose-pine': {
-          extend: 'dark',
+        dark: {
           colors: {
             background: '#191724',
             foreground: '#e0def4',
@@ -47,8 +45,7 @@ module.exports = {
           },
           layout: {},
         },
-        'rose-pine-dawn': {
-          extend: 'light',
+        light: {
           colors: {
             background: '#faf4ed',
             foreground: '#575279',
