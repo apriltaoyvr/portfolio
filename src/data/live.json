@@ -40,10 +40,10 @@
     ]
   },
   {
-    "src": "https://user-images.githubusercontent.com/95392008/265441203-e0ed301a-4a71-4bcf-9459-44b017699d2f.png",
-    "href": "https://slime-rancher-graphql.vercel.app/",
-    "title": "Slime Rancher GraphQL",
-    "subtitle": "A GraphQL endpoint for Slime Rancher",
+    "src": "https://user-images.githubusercontent.com/95392008/266491518-494e699f-4211-43e8-b092-0ca2a0c00ee0.png",
+    "href": "https://slime-rancher.vercel.app/",
+    "title": "Slime Rancher API",
+    "subtitle": "A GraphQL and RESTful API for Slime Rancher",
     "frameworks": [
       {
         "src": "/icons/react.svg",
