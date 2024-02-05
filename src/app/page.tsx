@@ -1,8 +1,10 @@
 'use client';
 import { Image, Link } from '@nextui-org/react';
+import NextImage from "next/image";
 import ProjectCard from '@/components/ProjectCard';
 import liveSites from '@/data/live.json';
 import otherProjects from '@/data/other.json';
+import assisted from '@/data/assisted.json';
 
 export default function Home() {
   return (
@@ -26,28 +28,37 @@ export default function Home() {
           ))}
         </div>
       </section>
+      <section className='mb-2 flex flex-col p-4'>
+        <h2>Projects assisted in</h2>
+        <div className='flex flex-wrap place-content-center place-items-center gap-2'>
+          {assisted.map((project) => (
+            <ProjectCard project={project} key={project.title} />
+          ))}
+        </div>
+      </section>
       <section className='mb-2 flex flex-col place-content-center place-items-center gap-2 p-4'>
         <h2>About Me</h2>
         <div className='grid grid-cols-2 gap-4'>
           <figure className='flex flex-col place-content-center place-items-center'>
             <Image
-              src='https://res.cloudinary.com/dsbhmynmq/image/upload/v1668374078/April%20Tao/Images/me_fzw1n4.webp'
-              width={300}
+              src='/me.jpg'
+              as={NextImage}
+              height={2217}
+              width={1584}
               alt='A photo of myself'
               shadow='sm'
               radius='lg'
-              className='border-[1px] border-neutral-800/10 dark:border-neutral-100/10'
+              className='border-[1px] max-w-sm border-neutral-800/10 dark:border-neutral-100/10'
               isBlurred
             />
             <figcaption className='mt-2 text-sm'>
-              Photo by Frank Sala
+              Photo by Francisco Leana
             </figcaption>
           </figure>
           <article>
             <section className='list'>
               <h3>Info</h3>
               <ul>
-                <li>A developer from Vancouver, BC</li>
                 <li>Passionate about design</li>
                 <li>Big fan of pigeons, cats, and rats</li>
               </ul>
