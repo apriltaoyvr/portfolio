@@ -8,7 +8,7 @@ import assisted from '@/data/assisted.json';
 
 export default function Home() {
   return (
-    <main className='mt-8 flex flex-col place-content-center justify-around gap-4'>
+    <main className='pt-8 flex flex-col place-content-center justify-around gap-4'>
       <header className='min-w-full text-center'>
         <h1>Portfolio</h1>
       </header>
@@ -29,7 +29,7 @@ export default function Home() {
         </div>
       </section>
       <section className='mb-2 flex flex-col p-4'>
-        <h2>Projects assisted in</h2>
+        <h2>Assisted In</h2>
         <div className='flex flex-wrap place-content-center place-items-center gap-2'>
           {assisted.map((project) => (
             <ProjectCard project={project} key={project.title} />
