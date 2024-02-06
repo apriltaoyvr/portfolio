@@ -1,6 +1,6 @@
 [
   {
-    "src": "https://github-production-user-asset-6210df.s3.amazonaws.com/95392008/302620839-a4aafced-df65-40f2-b96d-8f8428d30cec.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20240206%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240206T122002Z&X-Amz-Expires=300&X-Amz-Signature=67f80e266c0b7720a4dfdfb394ae5bd39fb0333be5c0575ca6a905e76ce70a46&X-Amz-SignedHeaders=host&actor_id=95392008&key_id=0&repo_id=623739733",
+    "src": "/projects/decision-bot.png",
     "href": "https://github.com/apriltaoyvr/decision-bot",
     "title": "Decision Bot",
     "subtitle": "Discord bot for making decisions",
