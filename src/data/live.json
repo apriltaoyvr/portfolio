@@ -1,25 +1,5 @@
 [
   {
-    "src": "https://user-images.githubusercontent.com/95392008/201547099-a89f4b0e-692f-4b29-990e-ecf081b9bba8.png",
-    "href": "https://www.ambrosialab.it/en",
-    "title": "AmbrosiaLab",
-    "subtitle": "Italian research company AmbrosiaLab",
-    "frameworks": [
-      {
-        "src": "/icons/react.svg",
-        "name": "React"
-      },
-      {
-        "src": "/icons/typescript.svg",
-        "name": "Typescript"
-      },
-      {
-        "src": "/icons/styledcomponents.svg",
-        "name": "Styled Components"
-      }
-    ]
-  },
-  {
     "src": "https://user-images.githubusercontent.com/1346839/205125380-9fbe6625-64a2-4d21-b114-5c509bbac716.png",
     "href": "https://theripper93.com/",
     "title": "TheRipper93",
@@ -36,6 +16,26 @@
       {
         "src": "/icons/mui.svg",
         "name": "MUI"
+      }
+    ]
+  },
+  {
+    "src": "https://user-images.githubusercontent.com/95392008/201547099-a89f4b0e-692f-4b29-990e-ecf081b9bba8.png",
+    "href": "https://www.ambrosialab.it/en",
+    "title": "AmbrosiaLab",
+    "subtitle": "Italian research company AmbrosiaLab",
+    "frameworks": [
+      {
+        "src": "/icons/react.svg",
+        "name": "React"
+      },
+      {
+        "src": "/icons/typescript.svg",
+        "name": "Typescript"
+      },
+      {
+        "src": "/icons/styledcomponents.svg",
+        "name": "Styled Components"
       }
     ]
   },
@@ -68,26 +68,6 @@
       {
         "src": "/icons/typescript.svg",
         "name": "Typescript"
-      }
-    ]
-  },
-  {
-    "src": "https://user-images.githubusercontent.com/95392008/252136157-ce6380fb-5161-4767-866c-f7fcbb8b08f0.png",
-    "href": "https://alice-i18n.vercel.app/",
-    "title": "Alice i18n",
-    "subtitle": "Internationalized Alice in Wonderland",
-    "frameworks": [
-      {
-        "src": "/icons/astro.svg",
-        "name": "Astro"
-      },
-      {
-        "src": "/icons/typescript.svg",
-        "name": "Typescript"
-      },
-      {
-        "src": "/icons/tailwindcss.svg",
-        "name": "TailwindCSS"
       }
     ]
   }
