@@ -38,24 +38,26 @@ export default function Home() {
       </section>
       <section className='mb-2 flex flex-col place-content-center place-items-center gap-2 p-4'>
         <h2>About Me</h2>
-        <div className='grid grid-cols-2 gap-4'>
-          <figure className='flex flex-col place-content-center place-items-center'>
+        <div className='md:grid md:grid-cols-2 gap-4 sm:flex sm:flex-col sm:flex-wrap'>
+          <figure className='flex flex-col flex-wrap place-content-center place-items-center mb-2'>
             <Image
               src='/me.jpg'
               as={NextImage}
-              height={2217}
-              width={1584}
+              height={1108}
+              width={1292}
               alt='A photo of myself'
               shadow='sm'
               radius='lg'
+              sizes="(max-width: 768px) 25vw, 33vw"
               className='border-[1px] max-w-sm border-neutral-800/10 dark:border-neutral-100/10'
+              loading='lazy'
               isBlurred
             />
             <figcaption className='mt-2 text-sm'>
               Photo by Francisco Leana
             </figcaption>
           </figure>
-          <article>
+          <article className='mb-2'>
             <section className='list'>
               <h3>Info</h3>
               <ul>
