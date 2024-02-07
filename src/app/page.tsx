@@ -50,7 +50,6 @@ export default function Home() {
               radius='lg'
               sizes="(max-width: 768px) 25vw, 33vw"
               className='border-[1px] max-w-sm border-neutral-800/10 dark:border-neutral-100/10'
-              loading='lazy'
               isBlurred
             />
             <figcaption className='mt-2 text-sm'>
