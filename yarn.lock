@@ -2716,12 +2716,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react-dom@npm:18.2.18":
-  version: 18.2.18
-  resolution: "@types/react-dom@npm:18.2.18"
+"@types/react-dom@npm:18.2.19":
+  version: 18.2.19
+  resolution: "@types/react-dom@npm:18.2.19"
   dependencies:
     "@types/react": "npm:*"
-  checksum: 10/4ef7725b4cebd4a32e049097ddfdfd855a178e63ead97ab6d3084872e7d6c1acd71aa923488123cd1015f0e0b11489d2b44f674a1df8fe82d7827eabbec6dbf1
+  checksum: 10/98eb760ce78f1016d97c70f605f0b1a53873a548d3c2192b40c897f694fd9c8bb12baeada16581a9c7b26f5022c1d2613547be98284d8f1b82d1611b1e3e7df0
   languageName: node
   linkType: hard
 
@@ -2736,14 +2736,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:18.2.53":
-  version: 18.2.53
-  resolution: "@types/react@npm:18.2.53"
+"@types/react@npm:18.2.55":
+  version: 18.2.55
+  resolution: "@types/react@npm:18.2.55"
   dependencies:
     "@types/prop-types": "npm:*"
     "@types/scheduler": "npm:*"
     csstype: "npm:^3.0.2"
-  checksum: 10/9a518aef07c6bb743aa18a2aea7f618d4e7c9e44e14d25119d2e255c48e68ecd901ede8b4eaf22ffe4f52c1ff85e11634ec75e73dcfc0719cc52269629f13d69
+  checksum: 10/bf8fe19e73575489e63c0726355f164157cd69e75f2a862436ad2c0586e732cb953a7255a6bc73145e8f9506ee7a723f9a569ca9a39c53984e5b12b84e1c718a
   languageName: node
   linkType: hard
 
@@ -2945,17 +2945,17 @@ __metadata:
   dependencies:
     "@nextui-org/react": "npm:2.2.9"
     "@types/node": "npm:20.11.16"
-    "@types/react": "npm:18.2.53"
-    "@types/react-dom": "npm:18.2.18"
+    "@types/react": "npm:18.2.55"
+    "@types/react-dom": "npm:18.2.19"
     autoprefixer: "npm:10.4.17"
     eslint: "npm:8.56.0"
     eslint-config-next: "npm:14.1.0"
-    framer-motion: "npm:^10.12.18"
+    framer-motion: "npm:^11.0.3"
     next: "npm:14.1.0"
     next-themes: "npm:^0.2.1"
-    postcss: "npm:8.4.33"
+    postcss: "npm:8.4.35"
     prettier: "npm:3.2.5"
-    prettier-plugin-tailwindcss: "npm:0.5.11"
+    prettier-plugin-tailwindcss: "npm:^0.5.11"
     react: "npm:18.2.0"
     react-dom: "npm:18.2.0"
     tailwindcss: "npm:3.4.1"
@@ -4403,9 +4403,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"framer-motion@npm:^10.12.18":
-  version: 10.12.18
-  resolution: "framer-motion@npm:10.12.18"
+"framer-motion@npm:^11.0.3":
+  version: 11.0.3
+  resolution: "framer-motion@npm:11.0.3"
   dependencies:
     "@emotion/is-prop-valid": "npm:^0.8.2"
     tslib: "npm:^2.4.0"
@@ -4420,7 +4420,7 @@ __metadata:
       optional: true
     react-dom:
       optional: true
-  checksum: 10/dc3d1a0d53147d50f175c90292b765d7d5a213904e16e622d21582759d4535600b2543fba6812f83a1322e30fc9ab9f25bf94f527cdb5a80591b9ce96366c9ac
+  checksum: 10/f1aaf7da810523ae0a4290f88dc7cb6c2fb1101443f20c4e5478dd6c155769573ffae0d0dc47a7ceaa63c4385aa8fd3e93d9835d257444cc99f741a5361eafb2
   languageName: node
   linkType: hard
 
@@ -6329,14 +6329,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss@npm:8.4.33":
-  version: 8.4.33
-  resolution: "postcss@npm:8.4.33"
+"postcss@npm:8.4.35":
+  version: 8.4.35
+  resolution: "postcss@npm:8.4.35"
   dependencies:
     nanoid: "npm:^3.3.7"
     picocolors: "npm:^1.0.0"
     source-map-js: "npm:^1.0.2"
-  checksum: 10/e22a4594c255f26117f38419fb494d7ecab0f596cd409f7aadc8a6173abf180ed7ea970cd13fd366ab12b5840be901d2a09b25197700c2ebcb5a8077326bf519
+  checksum: 10/93a7ce50cd6188f5f486a9ca98950ad27c19dfed996c45c414fa242944497e4d084a8760d3537f078630226f2bd3c6ab84b813b488740f4432e7c7039cd73a20
   languageName: node
   linkType: hard
 
@@ -6358,7 +6358,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier-plugin-tailwindcss@npm:0.5.11":
+"prettier-plugin-tailwindcss@npm:^0.5.11":
   version: 0.5.11
   resolution: "prettier-plugin-tailwindcss@npm:0.5.11"
   peerDependencies:
