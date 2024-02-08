@@ -54,21 +54,5 @@
         "name": "Apollo GraphQL"
       }
     ]
-  },
-  {
-    "src": "https://raw.githubusercontent.com/apriltaoyvr/apriltao.art/main/src/images/theripper93-wiki/preview.png",
-    "href": "https://wiki.theripper93.com",
-    "title": "TheRipper93 Wiki",
-    "subtitle": "Wiki of developer TheRipper93",
-    "frameworks": [
-      {
-        "src": "/icons/react.svg",
-        "name": "React"
-      },
-      {
-        "src": "/icons/typescript.svg",
-        "name": "Typescript"
-      }
-    ]
   }
 ]

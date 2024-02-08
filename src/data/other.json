@@ -16,26 +16,6 @@
     ]
   },
   {
-    "src": "https://user-images.githubusercontent.com/95392008/211212607-011290e6-32bb-49eb-9316-9c74f8385706.png",
-    "href": "https://github.com/apriltaoyvr/pokedex/tree/main",
-    "title": "Pokedex",
-    "subtitle": "Implementation of PokeAPI's GraphQL endpoint",
-    "frameworks": [
-      {
-        "src": "/icons/react.svg",
-        "name": "React"
-      },
-      {
-        "src": "/icons/typescript.svg",
-        "name": "Typescript"
-      },
-      {
-        "src": "/icons/graphql.svg",
-        "name": "GraphQL"
-      }
-    ]
-  },
-    {
     "src": "https://user-images.githubusercontent.com/95392008/252136157-ce6380fb-5161-4767-866c-f7fcbb8b08f0.png",
     "href": "https://alice-i18n.vercel.app/",
     "title": "Alice i18n",
@@ -52,18 +32,6 @@
       {
         "src": "/icons/tailwindcss.svg",
         "name": "TailwindCSS"
-      }
-    ]
-  },
-  {
-    "src": "https://user-images.githubusercontent.com/95392008/233385990-617c27f1-0464-4cef-97a0-f0eb307e0a32.png",
-    "href": "https://userstyles.world/style/9440/ros-pine-twitter",
-    "title": "Rosé Pine Twitter",
-    "subtitle": "Rose Pine theme for Twitter",
-    "frameworks": [
-      {
-        "src": "/icons/sass.svg",
-        "name": "Sass"
       }
     ]
   },
