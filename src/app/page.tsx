@@ -31,8 +31,8 @@ export default function Home() {
           </figure>
           <article className='flex flex-col place-content-start text-justify leading-12 gap-2 max-w-sm p-2'>
             <h2>About Me</h2>
-            <p>Hey, I'm <strong className='text-primary'>April Tao</strong>!</p>
-            <p>I'm a fullstack web developer that likes to tinker.</p>
+            <p>Hey, I&apos;m <strong className='text-primary'>April Tao</strong>!</p>
+            <p>I&apos;m a fullstack web developer that likes to tinker.</p>
             <p>Web development has been my hobby for about <strong>2 years</strong> now. I got started making user themes for websites and editing CSS themes on Electron-based applications.</p>
             <p>I gradually got into backend elements via wanting to make my own APIs for some games I enjoy. Now I make little databases and APIs for fun.</p>
             <p>Other than that, I love pigeons, cats, and rats. I do some modelling on the side, and I love to dance.</p>
