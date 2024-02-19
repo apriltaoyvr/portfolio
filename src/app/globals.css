@@ -65,3 +65,9 @@
     margin: 0 0.25em;
   }
 }
+
+@layer components {
+  .site-container {
+    @apply bg-background/70 border rounded-lg border-divider backdrop-blur-lg mb-2 flex flex-col p-4;
+  }
+}
