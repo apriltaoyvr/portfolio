@@ -10,9 +10,11 @@ import {
 } from '@nextui-org/react';
 import NextImage from 'next/image';
 import type { IProject } from '@/types';
+import icons from '@/data/icons.json';
 
 export default function ProjectCard({ project }: { project: IProject }) {
   const { href, src, title, subtitle, frameworks } = project;
+  const matchIcon = (id: string) => icons.find((icon) => icon.id === id);
 
   return (
     <Card as={Link} href={href} shadow='md' isHoverable isPressable>
@@ -38,9 +40,9 @@ export default function ProjectCard({ project }: { project: IProject }) {
         <footer className='flex flex-row place-items-center gap-2'>
           {frameworks.map((framework) => (
             <Image
-              key={framework.name}
-              src={framework.src}
-              alt={framework.name}
+              key={framework}
+              src={matchIcon(framework)?.src ?? '/favicon.ico'}
+              alt={matchIcon(framework)?.name ?? 'Unknown'}
               height={25}
               width={25}
             />

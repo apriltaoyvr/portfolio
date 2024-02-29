@@ -1,0 +1,62 @@
+[
+  {
+    "id": "astro",
+    "name": "Astro",
+    "src": "/icons/astro.svg"
+  },
+  {
+    "id": "apollographql",
+    "name": "Apollo GraphQL",
+    "src": "/icons/apollographql.svg"
+  },
+  {
+    "id": "typescript",
+    "name": "Typescript",
+    "src": "/icons/typescript.svg"
+  },
+  {
+    "id": "tailwindcss",
+    "name": "TailwindCSS",
+    "src": "/icons/tailwindcss.svg"
+  },
+  {
+    "id": "discord",
+    "name": "Discord",
+    "src": "/icons/discord.svg"
+  },
+  {
+    "id": "nodejs",
+    "name": "NodeJS",
+    "src": "/icons/nodedotjs.svg"
+  },
+  {
+    "id": "javascript",
+    "name": "Javascript",
+    "src": "/icons/javascript.svg"
+  },
+  {
+    "id": "styledcomponents",
+    "name": "Styled Components",
+    "src": "/icons/styledcomponents.svg"
+  },
+  {
+    "id": "mui",
+    "name": "MUI",
+    "src": "/icons/mui.svg"
+  },
+  {
+    "id": "react",
+    "name": "React",
+    "src": "/icons/react.svg"
+  },
+  {
+    "id": "supabase",
+    "name": "Supabase",
+    "src": "/icons/supabase.svg"
+  },
+  {
+    "id": "sass",
+    "name": "Sass",
+    "src": "/icons/sass.svg"
+  }
+]

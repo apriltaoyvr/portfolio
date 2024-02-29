@@ -3,8 +3,11 @@ export interface IProject {
   href: string;
   title: string;
   subtitle: string;
-  frameworks: {
-    src: string;
-    name: string;
-  }[];
+  frameworks: string[];
+}
+
+export interface IIcon {  
+  id: string;
+  src: string;
+  name: string;
 }
