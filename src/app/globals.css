@@ -4,16 +4,8 @@
 
 @layer base {
   :root {
-    background-image: radial-gradient(
-        at 56% 11%,
-        hsla(330, 71%, 52%, 0.1) 0px,
-        transparent 50%
-      ),
-      radial-gradient(at 80% 47%, hsla(264, 68%, 25%, 0.1) 0px, transparent 50%),
-      radial-gradient(at 93% 40%, hsla(229, 69%, 63%, 0.1) 0px, transparent 50%),
-      radial-gradient(at 99% 57%, hsla(330, 71%, 52%, 0.1) 0px, transparent 50%),
-      radial-gradient(at 98% 18%, hsla(54, 96%, 63%, 0.1) 0px, transparent 50%),
-      radial-gradient(at 49% 84%, hsla(199, 60%, 61%, 0.1) 0px, transparent 50%);
+    background-image: 
+      radial-gradient(at 56% 11%, hsla(330, 71%, 52%, 0.25) 0px, transparent 50%);
   }
 
   h1,
@@ -68,6 +60,6 @@
 
 @layer components {
   .site-container {
-    @apply bg-background/70 border rounded-lg border-divider backdrop-blur-lg mb-2 flex flex-col p-4;
+    @apply  rounded-lg mb-2 flex flex-col p-4;
   }
 }
