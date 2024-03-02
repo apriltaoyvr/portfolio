@@ -1,62 +1,58 @@
 [
   {
     "id": "astro",
-    "name": "Astro",
-    "src": "/icons/astro.svg"
+    "name": "Astro"
   },
   {
     "id": "apollographql",
-    "name": "Apollo GraphQL",
-    "src": "/icons/apollographql.svg"
+    "name": "Apollo GraphQL"
   },
   {
     "id": "typescript",
-    "name": "Typescript",
-    "src": "/icons/typescript.svg"
+    "name": "Typescript"
   },
   {
     "id": "tailwindcss",
-    "name": "TailwindCSS",
-    "src": "/icons/tailwindcss.svg"
+    "name": "TailwindCSS"
   },
   {
     "id": "discord",
-    "name": "Discord",
-    "src": "/icons/discord.svg"
+    "name": "Discord"
   },
   {
     "id": "nodejs",
-    "name": "NodeJS",
-    "src": "/icons/nodedotjs.svg"
+    "name": "NodeJS"
   },
   {
     "id": "javascript",
-    "name": "Javascript",
-    "src": "/icons/javascript.svg"
+    "name": "Javascript"
   },
   {
     "id": "styledcomponents",
-    "name": "Styled Components",
-    "src": "/icons/styledcomponents.svg"
+    "name": "Styled Components"
   },
   {
     "id": "mui",
-    "name": "MUI",
-    "src": "/icons/mui.svg"
+    "name": "MUI"
   },
   {
     "id": "react",
-    "name": "React",
-    "src": "/icons/react.svg"
+    "name": "React"
   },
   {
     "id": "supabase",
-    "name": "Supabase",
-    "src": "/icons/supabase.svg"
+    "name": "Supabase"
   },
   {
     "id": "sass",
-    "name": "Sass",
-    "src": "/icons/sass.svg"
+    "name": "Sass"
+  },
+  {
+    "id": "prisma",
+    "name": "Prisma"
+  },
+  {
+    "id": "postgresql",
+    "name": "PostgreSQL"
   }
 ]

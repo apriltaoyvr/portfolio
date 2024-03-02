@@ -38,15 +38,18 @@ export default function ProjectCard({ project }: { project: IProject }) {
       <Divider />
       <CardFooter className='flex min-w-full flex-col place-content-center'>
         <footer className='flex flex-row place-items-center gap-2'>
-          {frameworks.map((framework) => (
-            <Image
-              key={framework}
-              src={matchIcon(framework)?.src ?? '/favicon.ico'}
-              alt={matchIcon(framework)?.name ?? 'Unknown'}
-              height={25}
-              width={25}
-            />
-          ))}
+          {frameworks.map((framework) => {
+            const icon = matchIcon(framework);
+            return (
+              <Image
+                key={framework}
+                src={`/icons/${icon?.id}.svg` ?? '/favicon.ico'}
+                alt={icon?.name ?? 'Unknown'}
+                height={25}
+                width={25}
+              />
+            );
+          })}
         </footer>
       </CardFooter>
     </Card>
