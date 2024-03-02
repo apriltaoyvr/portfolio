@@ -11,7 +11,7 @@
     "href": "https://slime-rancher.vercel.app/",
     "title": "Slime Rancher API",
     "subtitle": "A GraphQL and RESTful API for Slime Rancher",
-    "frameworks": ["react", "typescript", "apollographql"]
+    "frameworks": ["react", "typescript", "apollographql", "tailwindcss"]
   },
   {
     "src": "https://user-images.githubusercontent.com/95392008/201547099-a89f4b0e-692f-4b29-990e-ecf081b9bba8.png",
