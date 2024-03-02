@@ -6,7 +6,7 @@ export interface IProject {
   frameworks: string[];
 }
 
-export interface IIcon {  
+export interface IIcon {
   id: string;
   src: string;
   name: string;

@@ -32,7 +32,7 @@ export default function Navbar() {
         </NavbarBrand>
       </NavbarContent>
       <NavbarContent justify='end'>
-        <ThemeSwitch/>
+        <ThemeSwitch />
         <NavbarItem
           as={motion.a}
           href='https://github.com/apriltaoyvr'

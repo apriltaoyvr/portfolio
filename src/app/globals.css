@@ -4,8 +4,11 @@
 
 @layer base {
   :root {
-    background-image: 
-      radial-gradient(at 56% 11%, hsla(330, 71%, 52%, 0.25) 0px, transparent 50%);
+    background-image: radial-gradient(
+      at 56% 11%,
+      hsla(330, 71%, 52%, 0.25) 0px,
+      transparent 50%
+    );
   }
 
   h1,
@@ -60,6 +63,6 @@
 
 @layer components {
   .site-container {
-    @apply  rounded-lg mb-2 flex flex-col p-4;
+    @apply mb-2 flex flex-col rounded-lg p-4;
   }
 }
