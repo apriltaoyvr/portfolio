@@ -16,11 +16,13 @@ const grotesque = Space_Grotesk({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://apriltao.vercel.app/"),
   title: {
     template: '%s | April Tao',
     default: 'April Tao',
   },
   description: 'Web developer and designer',
+  keywords: ['web developer', 'web designer', 'fullstack web developer', 'portfolio', 'react', 'next.js'],
 };
 
 export default function RootLayout({
