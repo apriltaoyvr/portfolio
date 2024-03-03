@@ -7,6 +7,13 @@
     "frameworks": ["discord", "nodedotjs"]
   },
   {
+    "src": "/projects/todolist.png",
+    "href": "",
+    "title": "Todolist",
+    "subtitle": "Simple todolist",
+    "frameworks": ["react", "redux"]
+  },
+  {
     "src": "https://user-images.githubusercontent.com/95392008/252136157-ce6380fb-5161-4767-866c-f7fcbb8b08f0.png",
     "href": "https://alice-i18n.vercel.app/",
     "title": "Alice i18n",
