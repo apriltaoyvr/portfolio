@@ -11,7 +11,7 @@
     "href": "https://todolist-redux-sigma.vercel.app",
     "title": "Todolist",
     "subtitle": "Simple todolist",
-    "frameworks": ["react", "redux"]
+    "frameworks": ["react", "redux", "tailwindcss"]
   },
   {
     "src": "https://user-images.githubusercontent.com/95392008/252136157-ce6380fb-5161-4767-866c-f7fcbb8b08f0.png",
