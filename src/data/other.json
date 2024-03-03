@@ -8,7 +8,7 @@
   },
   {
     "src": "/projects/todolist.png",
-    "href": "",
+    "href": "https://todolist-redux-sigma.vercel.app",
     "title": "Todolist",
     "subtitle": "Simple todolist",
     "frameworks": ["react", "redux"]
