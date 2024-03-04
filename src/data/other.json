@@ -4,7 +4,7 @@
     "href": "https://todolist-redux-sigma.vercel.app",
     "title": "Todolist",
     "subtitle": "Simple todo list for showcasing different libraries",
-    "frameworks": ["react", "nextjs", "typescript", "redux", "playwright", "tailwindcss"]
+    "frameworks": ["react", "nextdotjs", "typescript", "redux", "playwright", "tailwindcss"]
   },
   {
     "src": "/projects/decision-bot.png",
