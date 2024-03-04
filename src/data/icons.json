@@ -36,6 +36,10 @@
     "name": "MongoDB"
   },
   {
+    "id": "nextdotjs",
+    "name": "NextJS"
+  },
+  {
     "id": "mui",
     "name": "MUI"
   },
@@ -62,5 +66,9 @@
   {
     "id": "postgresql",
     "name": "PostgreSQL"
+  },
+  {
+    "id": "playwright",
+    "name": "Playwright"
   }
 ]
