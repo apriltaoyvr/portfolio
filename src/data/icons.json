@@ -20,7 +20,7 @@
     "name": "Discord"
   },
   {
-    "id": "nodejs",
+    "id": "nodedotjs",
     "name": "NodeJS"
   },
   {
@@ -30,6 +30,14 @@
   {
     "id": "styledcomponents",
     "name": "Styled Components"
+  },
+  {
+    "id": "mongodb",
+    "name": "MongoDB"
+  },
+  {
+    "id": "nextdotjs",
+    "name": "NextJS"
   },
   {
     "id": "mui",
@@ -52,7 +60,15 @@
     "name": "Prisma"
   },
   {
+    "id": "redux",
+    "name": "Redux"
+  },
+  {
     "id": "postgresql",
     "name": "PostgreSQL"
+  },
+  {
+    "id": "playwright",
+    "name": "Playwright"
   }
 ]

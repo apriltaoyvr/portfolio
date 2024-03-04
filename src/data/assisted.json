@@ -3,7 +3,7 @@
     "src": "/projects/limbus-logs.gif",
     "href": "https://limbus-logs.vercel.app/",
     "title": "Limbus Logs",
-    "subtitle": "Refactoring to React and Supabase (Postgres)",
-    "frameworks": ["react", "supabase", "postgresql"]
+    "subtitle": "Refactoring to React and Supabase",
+    "frameworks": ["react", "nextjs", "supabase", "postgresql", "prisma", "sass"]
   }
 ]

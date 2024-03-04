@@ -1,10 +1,17 @@
 [
   {
+    "src": "/projects/todolist.png",
+    "href": "https://todolist-redux-sigma.vercel.app",
+    "title": "Todolist",
+    "subtitle": "Simple todo list for showcasing different libraries",
+    "frameworks": ["react", "nextjs", "typescript", "redux", "playwright", "tailwindcss"]
+  },
+  {
     "src": "/projects/decision-bot.png",
     "href": "https://github.com/apriltaoyvr/decision-bot",
     "title": "Decision Bot",
     "subtitle": "Discord bot for making decisions",
-    "frameworks": ["discord", "nodejs"]
+    "frameworks": ["discord", "nodedotjs"]
   },
   {
     "src": "https://user-images.githubusercontent.com/95392008/252136157-ce6380fb-5161-4767-866c-f7fcbb8b08f0.png",
