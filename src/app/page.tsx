@@ -46,10 +46,8 @@ export default function Home() {
                 .
               </p>
               <p>
-                I have been doing web development for about{' '}
-                <strong>2 years</strong> now. I got started making user themes
-                for websites and editing CSS themes on Electron-based
-                applications, then transitioned into making webpages.
+                Web development a passion of mine for{' '}
+                <strong>2 years</strong> now. I started with making user themes for websites and editing CSS themes for sites and Electron-based applications, then transitioned into creating sites.
               </p>
               <p>
                 My interest in backend development began via making APIs for
