@@ -1,4 +1,4 @@
 # Portfolio
-This is the repository for my personal portfolio
+The repository for my personal portfolio. Created with React and Tailwind.
 
-![image](https://github.com/apriltaoyvr/portfolio/assets/95392008/2ea0ab01-99c8-4a3e-aeb6-92f9c9bb2c9c)
+![image](https://github.com/apriltaoyvr/portfolio/assets/95392008/6bbac613-0564-4aba-89b1-52e07d47e25c)
