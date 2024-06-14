@@ -1,12 +1,5 @@
 [
   {
-    "src": "/projects/todolist.png",
-    "href": "https://todolist-redux-sigma.vercel.app",
-    "title": "Todo List",
-    "subtitle": "Simple todo list for showcasing different libraries",
-    "frameworks": ["react", "nextdotjs", "typescript", "redux", "playwright", "tailwindcss"]
-  },
-  {
     "src": "/projects/decision-bot.png",
     "href": "https://github.com/apriltaoyvr/decision-bot",
     "title": "Decision Bot",
