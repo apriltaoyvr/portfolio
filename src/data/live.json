@@ -2,8 +2,8 @@
   {
     "src": "https://user-images.githubusercontent.com/1346839/205125380-9fbe6625-64a2-4d21-b114-5c509bbac716.png",
     "href": "https://theripper93.com/",
-    "title": "TheRipper93",
-    "subtitle": "Portfolio for developer Tommaso (TheRipper93)",
+    "title": "Developer Portfolio",
+    "subtitle": "Portfolio of an independent developer and freelancer",
     "frameworks": ["react", "nextdotjs", "typescript", "mui"]
   },
   {
@@ -17,7 +17,7 @@
     "src": "https://user-images.githubusercontent.com/95392008/201547099-a89f4b0e-692f-4b29-990e-ecf081b9bba8.png",
     "href": "https://www.ambrosialab.it/en",
     "title": "AmbrosiaLab",
-    "subtitle": "Italian research company AmbrosiaLab",
+    "subtitle": "Homepage of an Italian research company",
     "frameworks": ["react", "typescript", "styledcomponents"]
   }
 ]

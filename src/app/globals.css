@@ -50,6 +50,10 @@
     @apply max-w-prose font-sans;
   }
 
+  strong {
+    @apply text-primary;
+  }
+
   .list > ul {
     @apply mb-1;
   }
