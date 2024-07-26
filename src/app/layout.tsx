@@ -1,6 +1,5 @@
 import './globals.css';
 import Providers from './providers';
-import Navbar from '@/components/Navbar';
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import { Space_Grotesk } from 'next/font/google';
@@ -41,7 +40,6 @@ export default function RootLayout({
     <html lang='en' suppressHydrationWarning>
       <body className={`${inter.variable} ${grotesque.variable}`}>
         <Providers>
-          <Navbar />
           {children}
         </Providers>
       </body>
