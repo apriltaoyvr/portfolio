@@ -3,12 +3,8 @@
 @tailwind utilities;
 
 @layer base {
-  :root {
-    background-image: radial-gradient(
-      at 56% 11%,
-      hsla(330, 71%, 52%, 0.25) 0px,
-      transparent 50%
-    );
+  body {
+    @apply dark:bg-dark dark:text-light bg-light text-dark font-mono;
   }
 
   h1,
@@ -17,7 +13,7 @@
   h4,
   h5,
   h6 {
-    @apply text-center font-grotesque font-bold;
+    @apply text-center font-bold;
   }
 
   h1,
@@ -31,42 +27,38 @@
   }
 
   h1 {
-    @apply text-6xl;
-  }
-
-  h2 {
     @apply text-4xl;
   }
 
-  h3 {
+  h2 {
     @apply text-2xl;
   }
 
-  h4 {
+  h3 {
     @apply text-xl;
   }
 
+  h4 {
+    @apply text-lg;
+  }
+
   p {
-    @apply max-w-prose font-sans;
-  }
-
-  strong {
-    @apply text-primary;
-  }
-
-  .list > ul {
-    @apply mb-1;
-  }
-
-  .list > ul > li:before {
-    color: hsl(264, 46%, 70%);
-    content: '↗';
-    margin: 0 0.25em;
+    @apply max-w-prose;
   }
 }
 
 @layer components {
   .site-container {
     @apply mb-2 flex flex-col rounded-lg p-4;
+  }
+
+  .link {
+    @apply hover:[&>*]:opacity-80 hover:[&>*]:transition-opacity hover:opacity-80 hover:transition-opacity;
+  }
+}
+
+@layer utilities {
+  .border-coloured {
+    @apply dark:border-light border-dark;
   }
 }

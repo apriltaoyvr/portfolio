@@ -1,17 +1,17 @@
 import './globals.css';
 import Providers from './providers';
+import Navbar from '@/components/Navbar';
 import type { Metadata } from 'next';
-import { Inter } from 'next/font/google';
-import { Space_Grotesk } from 'next/font/google';
+import { Chivo_Mono, Space_Grotesk } from 'next/font/google';
 
-const inter = Inter({
+const mono = Chivo_Mono({
   subsets: ['latin'],
-  variable: '--font-inter',
+  variable: '--font-mono',
 });
 
-const grotesque = Space_Grotesk({
+const sans = Space_Grotesk({
   subsets: ['latin'],
-  variable: '--font-space-grotesk',
+  variable: '--font-sans',
 });
 
 export const metadata: Metadata = {
@@ -38,8 +38,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang='en' suppressHydrationWarning>
-      <body className={`${inter.variable} ${grotesque.variable}`}>
+      <body className={`${mono.variable} ${sans.variable}`}>
         <Providers>
+          <Navbar/>
           {children}
         </Providers>
       </body>
