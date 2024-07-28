@@ -15,8 +15,8 @@ export default function Home() {
             <Image
               src='/me.jpg'
               as={NextImage}
-              height={2217}
-              width={1584}
+              height={480}
+              width={320}
               alt='A photo of myself'
               shadow='sm'
               radius='lg'
@@ -26,11 +26,11 @@ export default function Home() {
             <figcaption className='text-inherit/75 mt-2 text-sm'>
               Photo by{' '}
               <Link
-                href='https://www.franciscoleanahidalgo.com/'
+                href='https://giorgioverzoletto.com/'
                 rel='_noreferer'
                 className='text-sm'
               >
-                Francisco Leana
+                Giorgio Verzoletto
               </Link>
             </figcaption>
           </figure>
