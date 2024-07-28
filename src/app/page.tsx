@@ -15,8 +15,8 @@ export default function Home() {
             <Image
               src='/me.jpg'
               as={NextImage}
-              height={1108}
-              width={1292}
+              height={2217}
+              width={1584}
               alt='A photo of myself'
               shadow='sm'
               radius='lg'

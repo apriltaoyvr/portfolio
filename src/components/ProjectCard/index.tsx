@@ -23,12 +23,12 @@ export default function ProjectCard({ project }: { project: IProject }) {
           as={NextImage}
           src={src}
           alt={`A photo of ${title}`}
-          className='aspect-video h-[240px] w-full object-cover'
+          className='aspect-video max-h-[240px] w-full object-cover'
           shadow='sm'
           radius='lg'
           isBlurred
-          width={1920}
-          height={1080}
+          fill={true}
+          sizes="(max-width: 768px) 100vw, 33vw"	
         />
       </CardHeader>
       <CardBody className='text-center'>
