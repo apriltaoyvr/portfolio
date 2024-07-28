@@ -23,7 +23,7 @@ export default function ProjectCard({ project }: { project: IProject }) {
           as={NextImage}
           src={src}
           alt={`A photo of ${title}`}
-          className='aspect-video h-[240px] w-full object-cover'
+          className='aspect-video max-h-[240px] w-full object-cover'
           shadow='sm'
           radius='lg'
           isBlurred
