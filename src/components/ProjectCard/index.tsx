@@ -29,6 +29,7 @@ export default function ProjectCard({ project }: { project: IProject }) {
           isBlurred
           width={1920}
           height={1080}
+          sizes="(max-width: 768px) 100vw, 33vw"	
         />
       </CardHeader>
       <CardBody className='text-center'>

@@ -15,13 +15,12 @@ export default function Home() {
             <Image
               src='/me.jpg'
               as={NextImage}
-              height={1108}
-              width={1292}
+              height={2217}
+              width={1584}
               alt='A photo of myself'
               shadow='sm'
               radius='lg'
-              sizes='(max-width: 768px) 25vw, 33vw'
-              className='max-w-sm border-[1px] border-neutral-800/10 dark:border-neutral-100/10'
+              className='max-w-sm max-h-sm border-[1px] border-neutral-800/10 dark:border-neutral-100/10'
               isBlurred
             />
             <figcaption className='text-inherit/75 mt-2 text-sm'>
