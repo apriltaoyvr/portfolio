@@ -4,7 +4,7 @@
 
 @layer base {
   body {
-    @apply dark:bg-dark dark:text-light bg-light text-dark font-mono;
+    @apply bg-light font-mono text-dark dark:bg-dark dark:text-light;
   }
 
   h1,
@@ -27,19 +27,19 @@
   }
 
   h1 {
-    @apply text-4xl;
+    @apply text-8xl;
   }
 
   h2 {
-    @apply text-2xl;
+    @apply mb-2 mt-4 text-4xl;
   }
 
   h3 {
-    @apply text-xl;
+    @apply text-2xl;
   }
 
   h4 {
-    @apply text-lg;
+    @apply text-xl;
   }
 
   p {
@@ -53,12 +53,12 @@
   }
 
   .link {
-    @apply hover:[&>*]:opacity-80 hover:[&>*]:transition-opacity hover:opacity-80 hover:transition-opacity;
+    @apply hover:opacity-80 hover:transition-opacity hover:[&>*]:opacity-80 hover:[&>*]:transition-opacity;
   }
 }
 
 @layer utilities {
   .border-coloured {
-    @apply dark:border-light border-dark;
+    @apply border-dark dark:border-light;
   }
 }

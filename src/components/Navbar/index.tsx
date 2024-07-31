@@ -1,19 +1,24 @@
-import Link from "next/link"
-import { GitHubLogoIcon } from "@radix-ui/react-icons"
+import Link from 'next/link';
+import { GitHubLogoIcon } from '@radix-ui/react-icons';
 
 export default function Navbar() {
   return (
-    <nav className='border-b p-4 sticky top-0'>
-      <ul className='flex place-items-center flex-row justify-between'>
+    <nav
+      className='sticky top-0 z-50 border-b bg-light p-4 dark:bg-dark'
+      role='navigation'
+    >
+      <ul className='flex flex-row place-items-center justify-between'>
         <li>
-          <Link href='/' className='link'>Home</Link>
+          <Link href='/' className='link'>
+            Home
+          </Link>
         </li>
         <li>
-          <Link href='https://github.com/apriltaoyvr' className='p-1 link'>
+          <Link href='https://github.com/apriltaoyvr' className='link p-1'>
             Github
           </Link>
         </li>
       </ul>
     </nav>
-  )
+  );
 }
