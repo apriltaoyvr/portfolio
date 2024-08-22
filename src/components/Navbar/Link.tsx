@@ -8,10 +8,8 @@ export default function NavLink({
   children: React.ReactNode;
 }) {
   return (
-    <li>
-      <Link href={href} className='link mx-1 lowercase'>
-        {children}
-      </Link>
-    </li>
+    <Link href={href} className='link mx-1 lowercase'>
+      {children}
+    </Link>
   );
 }

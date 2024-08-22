@@ -55,12 +55,6 @@ export default function About() {
           <li>Figma</li>
         </ul>
       </section>
-      <section>
-        <h2>Fun facts</h2>
-        <ul className='bullet-list'>
-          <li>I love cats, rats, pigeons, and raccoons</li>
-        </ul>
-      </section>
     </main>
   );
 }
