@@ -5,20 +5,22 @@ type Props = {
   src: string;
   href: string;
   title: string;
-  subtitle: string;
-  frameworks: string[];
+  position?: string;
+  desc: string;
+  skills: string[];
 };
 
 export default function ProjectCard({
   src,
   href,
   title,
-  subtitle,
-  frameworks,
+  position,
+  desc,
+  skills,
 }: Props) {
   return (
     <>
-      <li className='grid border-coloured grid-rows-[240px_1fr] w-[450px] max-w-md list-none border'>
+      <li className='border-coloured grid w-[450px] max-w-md list-none grid-rows-[240px_1fr] border'>
         <figure className='relative h-[240px] w-full max-w-md border-b'>
           <Image
             src={src}
@@ -28,25 +30,16 @@ export default function ProjectCard({
             className='z-0 object-cover'
           />
         </figure>
-        <main className='p-4 text-center flex flex-col place-content-start'>
+        <main className='flex flex-col place-content-start p-4 text-center'>
           <Link
             href={href}
-            className='hover:[&>h3]:font-extrabold hover:[&>h3]:transition-all'
+            className='hover:[&>h3]:font-extrabold'
           >
             <h3>{title}</h3>
+            {position && <h4>{position}</h4> }
           </Link>
-
-          <p>{subtitle}</p>
+          <p>{desc}</p>
         </main>
-        {/* <footer className='w-full border-t border-dashed flex flex-row flex-wrap place-content-center p-2'>
-          <ul className='flex flex-wrap place-content-center place-items-center gap-2'>
-            {frameworks.map((framework) => (
-              <li>
-                {framework}
-              </li>
-            ))}
-          </ul>
-        </footer> */}
       </li>
     </>
   );

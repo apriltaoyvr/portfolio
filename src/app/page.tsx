@@ -1,14 +1,13 @@
 import ProjectCard from '@/components/ProjectCard';
-import liveProjects from '@/data/live.json';
-import contributedProjects from '@/data/assisted.json';
+import professionalProjects from '@/data/professional.json';
 import otherProjects from '@/data/other.json';
 
 export default function Home() {
   return (
-    <main className='site-container flex flex-col place-content-center place-items-center'>
+    <main className='site-container flex flex-col place-content-center place-items-center gap-8'>
       <header className='border-coloured grid grid-cols-3 border' role='banner'>
-        <article className='col-span-2 m-4 flex flex-col gap-2 [&>p]:max-w-[32ch]'>
-          <p>Hey, I'm April. </p>
+        <article className='col-span-2 m-4 flex flex-col gap-2 [&>p]:max-w-prose'>
+          <h1 className='text-start'>Hello!</h1>
           <p>
             I'm a <strong>full-stack web developer</strong> with{' '}
             <strong>2 years</strong> of experience in:
@@ -26,32 +25,24 @@ export default function Home() {
         </article>
         <figure className='bg-dark dark:bg-light' />
       </header>
-      <hr
+      {/* <hr
         className='border-b-1 border-coloured mb-6 mt-8 w-full border-dashed'
         aria-hidden='true'
-      />
+      /> */}
       <main
         role='main'
         className='flex flex-col place-content-center place-items-center gap-8'
       >
         <section role='group' className=''>
-          <h2>Live Sites</h2>
+          <h2>Experience</h2>
           <ul className='flex flex-row flex-wrap place-content-center gap-2'>
-            {liveProjects.map((project) => (
+            {professionalProjects.map((project) => (
               <ProjectCard key={project.title} {...project} />
             ))}
           </ul>
         </section>
         <section role='group' className='h-full w-full'>
-          <h2>Contributed To</h2>
-          <ul className='flex flex-row flex-wrap place-content-center gap-2'>
-            {contributedProjects.map((project) => (
-              <ProjectCard key={project.title} {...project} />
-            ))}
-          </ul>
-        </section>
-        <section role='group' className='h-full w-full'>
-          <h2>Other</h2>
+          <h2>Personal Projects</h2>
           <ul className='flex flex-row flex-wrap place-content-center gap-2'>
             {otherProjects.map((project) => (
               <ProjectCard key={project.title} {...project} />

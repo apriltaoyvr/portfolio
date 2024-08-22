@@ -1,0 +1,18 @@
+[
+  {
+    "src": "https://user-images.githubusercontent.com/1346839/205125380-9fbe6625-64a2-4d21-b114-5c509bbac716.png",
+    "href": "https://theripper93.com/",
+    "title": "Manfredini",
+    "position": "Web Developer and Designer",
+    "desc": "Designed, developed, and maintained the website of Manfredini",
+    "skills": ["react", "nextdotjs", "typescript", "mui", "figma"]
+  },
+  {
+    "src": "https://user-images.githubusercontent.com/95392008/201547099-a89f4b0e-692f-4b29-990e-ecf081b9bba8.png",
+    "href": "https://www.ambrosialab.it/en",
+    "title": "Ambrosialab",
+    "position": "Web Developer and Designer",
+    "desc": "Designed and implemented the website of Ambrosialab",
+    "skills": ["react", "typescript", "styledcomponents", "figma"]
+  }
+]
