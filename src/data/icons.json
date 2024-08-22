@@ -1,0 +1,74 @@
+[
+  {
+    "id": "astro",
+    "name": "Astro"
+  },
+  {
+    "id": "apollographql",
+    "name": "Apollo GraphQL"
+  },
+  {
+    "id": "typescript",
+    "name": "Typescript"
+  },
+  {
+    "id": "tailwindcss",
+    "name": "TailwindCSS"
+  },
+  {
+    "id": "discord",
+    "name": "Discord"
+  },
+  {
+    "id": "nodedotjs",
+    "name": "NodeJS"
+  },
+  {
+    "id": "javascript",
+    "name": "Javascript"
+  },
+  {
+    "id": "styledcomponents",
+    "name": "Styled Components"
+  },
+  {
+    "id": "mongodb",
+    "name": "MongoDB"
+  },
+  {
+    "id": "nextdotjs",
+    "name": "NextJS"
+  },
+  {
+    "id": "mui",
+    "name": "MUI"
+  },
+  {
+    "id": "react",
+    "name": "React"
+  },
+  {
+    "id": "supabase",
+    "name": "Supabase"
+  },
+  {
+    "id": "sass",
+    "name": "Sass"
+  },
+  {
+    "id": "prisma",
+    "name": "Prisma"
+  },
+  {
+    "id": "redux",
+    "name": "Redux"
+  },
+  {
+    "id": "postgresql",
+    "name": "PostgreSQL"
+  },
+  {
+    "id": "playwright",
+    "name": "Playwright"
+  }
+]
