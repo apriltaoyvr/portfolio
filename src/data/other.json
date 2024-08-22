@@ -6,9 +6,9 @@
     "desc": "A GraphQL and RESTful API for Slime Rancher",
     "skills": [
       "react",
-      "nextdotjs",
+      "next.js",
       "typescript",
-      "apollographql",
+      "graphql",
       "tailwindcss"
     ]
   },
@@ -24,13 +24,13 @@
     "href": "https://limbus-logs.vercel.app/",
     "title": "Limbus Logs",
     "desc": "Refactoring a Limbus Company fanproject to React and PostgreSQL (Supabase)",
-    "skills": ["react", "nextdotjs", "supabase", "postgresql", "prisma", "sass"]
+    "skills": ["react", "next.js", "supabase", "postgresql", "prisma", "scss"]
   },
   {
     "src": "https://user-images.githubusercontent.com/95392008/147394179-6777840b-3554-4e9c-b4c3-50cd99616ee2.png",
     "href": "https://github.com/apriltaoyvr/dracula-foundry",
     "title": "Dracula Foundry",
     "desc": "A dark theme for FoundryVTT based on the Dracula palette",
-    "skills": ["sass"]
+    "skills": ["scss", "javascript"]
   }
 ]
