@@ -1,19 +1,19 @@
 import './globals.css';
+import { VercelToolbar } from '@vercel/toolbar/next';
+import { Chivo_Mono, Space_Grotesk } from 'next/font/google';
 import Providers from './providers';
 import Navbar from '@/components/Navbar';
-import type { Metadata } from 'next';
-import { VercelToolbar } from '@vercel/toolbar/next';
-import { Inter } from 'next/font/google';
-import { Space_Grotesk } from 'next/font/google';
 
-const inter = Inter({
+import type { Metadata } from 'next';
+
+const mono = Chivo_Mono({
   subsets: ['latin'],
-  variable: '--font-inter',
+  variable: '--font-mono',
 });
 
-const grotesque = Space_Grotesk({
+const sans = Space_Grotesk({
   subsets: ['latin'],
-  variable: '--font-space-grotesk',
+  variable: '--font-sans',
 });
 
 export const metadata: Metadata = {
@@ -31,6 +31,11 @@ export const metadata: Metadata = {
     'react',
     'next.js',
   ],
+  openGraph: {
+    type: 'website',
+    siteName: 'April Tao',
+    url: 'https://apriltao.vercel.app/',
+  },
 };
 
 export default function RootLayout({
@@ -41,10 +46,12 @@ export default function RootLayout({
   const shouldInjectToolbar = process.env.NODE_ENV === 'development';
   return (
     <html lang='en' suppressHydrationWarning>
-      <body className={`${inter.variable} ${grotesque.variable}`}>
+      <body className={`${mono.variable} ${sans.variable}`}>
         <Providers>
-          <Navbar />
-          {children}
+          <main className='site-container'>
+            <Navbar />
+            {children}
+          </main>
           {shouldInjectToolbar && <VercelToolbar />}
         </Providers>
       </body>
