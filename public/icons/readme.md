@@ -1,1 +1,0 @@
-All brand icons are sourced from [https://simpleicons.org/](Simple Icons)

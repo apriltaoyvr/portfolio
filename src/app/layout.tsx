@@ -1,8 +1,10 @@
 import './globals.css';
+import { VercelToolbar } from '@vercel/toolbar/next';
+import { Chivo_Mono, Space_Grotesk } from 'next/font/google';
 import Providers from './providers';
 import Navbar from '@/components/Navbar';
+
 import type { Metadata } from 'next';
-import { Chivo_Mono, Space_Grotesk } from 'next/font/google';
 
 const mono = Chivo_Mono({
   subsets: ['latin'],
@@ -29,6 +31,11 @@ export const metadata: Metadata = {
     'react',
     'next.js',
   ],
+  openGraph: {
+    type: 'website',
+    siteName: 'April Tao',
+    url: 'https://apriltao.vercel.app/',
+  },
 };
 
 export default function RootLayout({
@@ -36,12 +43,17 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
+  const shouldInjectToolbar = process.env.NODE_ENV === 'development';
+
   return (
     <html lang='en' suppressHydrationWarning>
       <body className={`${mono.variable} ${sans.variable}`}>
         <Providers>
-          <Navbar/>
-          {children}
+          <main className='site-container'>
+            <Navbar />
+            {children}
+          </main>
+          {shouldInjectToolbar && <VercelToolbar />}
         </Providers>
       </body>
     </html>
