@@ -4,7 +4,21 @@
 
 @layer base {
   body {
-    @apply dark:bg-dark dark:text-light bg-light text-dark font-mono;
+    @apply  bg-neutral-100 font-mono text-neutral-950 dark:bg-neutral-950 dark:text-neutral-100;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  span,
+  strong,
+  ul,
+  li {
+    @apply decoration-accent-secondary;
   }
 
   h1,
@@ -13,7 +27,7 @@
   h4,
   h5,
   h6 {
-    @apply text-center font-bold;
+    @apply text-center font-sans font-bold md:text-start;
   }
 
   h1,
@@ -27,38 +41,54 @@
   }
 
   h1 {
-    @apply text-4xl;
+    @apply text-8xl;
   }
 
   h2 {
-    @apply text-2xl;
+    @apply mb-2 mt-4 text-4xl;
   }
 
   h3 {
-    @apply text-xl;
+    @apply text-2xl;
   }
 
   h4 {
-    @apply text-lg;
+    @apply text-xl;
   }
 
   p {
     @apply max-w-prose;
   }
+
+  strong {
+    @apply text-accent-primary;
+  }
+
+  hr {
+    @apply border-neutral-300 dark:border-neutral-700;
+  }
 }
 
 @layer components {
   .site-container {
-    @apply mb-2 flex flex-col rounded-lg p-4;
+    @apply flex flex-col p-4 lg:m-8 lg:border border-neutral-600 dark:border-neutral-300;
   }
 
   .link {
-    @apply hover:[&>*]:opacity-80 hover:[&>*]:transition-opacity hover:opacity-80 hover:transition-opacity;
+    @apply hover:text-neutral-700 hover:transition-colors dark:hover:text-neutral-400 hover:[&>*]:text-neutral-700 hover:[&>*]:transition-colors dark:hover:[&>*]:text-neutral-400;
+  }
+
+  .bullet-list {
+    @apply ml-6 list-disc;
+  }
+
+  .bullet-list > li {
+    @apply mt-1 marker:text-accent-primary;
   }
 }
 
 @layer utilities {
-  .border-coloured {
-    @apply dark:border-light border-dark;
+  .responsive-flexbox-orientation {
+    @apply place-content-center place-items-center md:place-content-start md:place-items-start;
   }
 }
