@@ -4,7 +4,7 @@
 
 @layer base {
   body {
-    @apply border-dark bg-light font-mono text-dark dark:border-light dark:bg-dark dark:text-light;
+    @apply border-neutral-950 bg-neutral-100 font-mono text-neutral-950 dark:border-neutral-100 dark:bg-neutral-950 dark:text-neutral-100;
   }
 
   h1,
@@ -27,7 +27,7 @@
   h4,
   h5,
   h6 {
-    @apply font-sans font-bold text-center md:text-start;
+    @apply text-center font-sans font-bold md:text-start;
   }
 
   h1,
@@ -71,7 +71,7 @@
   }
 
   .link {
-    @apply hover:opacity-80 hover:transition-opacity hover:[&>*]:opacity-80 hover:[&>*]:transition-opacity;
+    @apply hover:text-neutral-700 hover:transition-colors dark:hover:text-neutral-400 hover:[&>*]:text-neutral-700 hover:[&>*]:transition-colors dark:hover:[&>*]:text-neutral-400;
   }
 
   .bullet-list {
@@ -85,6 +85,6 @@
 
 @layer utilities {
   .responsive-flexbox-orientation {
-    @apply md:place-content-start place-content-center md:place-items-start place-items-center;
+    @apply place-content-center place-items-center md:place-content-start md:place-items-start;
   }
 }

@@ -49,8 +49,10 @@ export default function RootLayout({
     <html lang='en' suppressHydrationWarning>
       <body className={`${mono.variable} ${sans.variable}`}>
         <Providers>
-          <Navbar />
-          {children}
+          <main className='site-container'>
+            <Navbar />
+            {children}
+          </main>
           {shouldInjectToolbar && <VercelToolbar />}
         </Providers>
       </body>
