@@ -4,8 +4,8 @@ import otherProjects from '@/data/other.json';
 
 export default function Experience() {
   return (
-    <main className='responsive-flexbox-orientation flex flex-col gap-8 md:place-content-start'>
-      <section role='group'>
+    <main className='responsive-flexbox-orientation flex flex-col gap-8 place-content-center place-items-center md:place-content-start'>
+      <section role='group' className='h-full w-full'>
         <h2 className='text-center md:text-start'>Experience</h2>
         <ul className='responsive-flexbox-orientation flex flex-row flex-wrap gap-2 md:place-content-start'>
           {professionalProjects.map((project) => (

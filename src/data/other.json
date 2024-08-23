@@ -9,7 +9,7 @@
       "next.js",
       "typescript",
       "graphql",
-      "tailwindcss"
+      "tailwind"
     ]
   },
   {
@@ -17,7 +17,7 @@
     "href": "https://alice-i18n.vercel.app/",
     "title": "Alice i18n",
     "desc": "Lewis Carrol's Alice in Wonderland in multiple languages",
-    "skills": ["astro", "typescript", "tailwindcss"]
+    "skills": ["astro", "typescript", "tailwind"]
   },
   {
     "src": "/projects/limbuslogs.jpg",

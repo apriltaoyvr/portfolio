@@ -13,6 +13,6 @@
     "title": "Ambrosialab",
     "position": "Web Developer and Designer",
     "desc": "Designed and implemented the website of Ambrosialab",
-    "skills": ["react", "typescript", "styledcomponents", "figma"]
+    "skills": ["react", "typescript", "styled components", "figma"]
   }
 ]
