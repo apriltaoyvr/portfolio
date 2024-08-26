@@ -1,4 +1,4 @@
 # Portfolio
 The repository for my personal portfolio. Created with React and Tailwind.
 
-![image](https://github.com/apriltaoyvr/portfolio/assets/95392008/6bbac613-0564-4aba-89b1-52e07d47e25c)
+![{031A49ED-2C05-44E7-A1BF-D204A1A213EF}](https://github.com/user-attachments/assets/bfaaa1a3-285d-44dc-b106-e3286c2eab95)
