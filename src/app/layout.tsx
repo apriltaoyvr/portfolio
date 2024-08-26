@@ -35,6 +35,7 @@ export const metadata: Metadata = {
     type: 'website',
     siteName: 'April Tao',
     url: 'https://apriltao.vercel.app/',
+    images: ['https://apriltao.vercel.app/api/og'],
   },
 };
 
