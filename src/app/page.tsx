@@ -4,7 +4,7 @@ export default function Home() {
       <section className='flex flex-col place-content-start place-items-start gap-8'>
         <hgroup>
           <h1 className='mb-0'>Hello!</h1>
-          <h2 className='font-normal mb-8'>
+          <h2 className='mb-8 font-normal'>
             I'm a <strong>full-stack web developer</strong> and{' '}
             <strong>web designer</strong>.
           </h2>

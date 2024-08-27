@@ -34,17 +34,19 @@ export default function ProjectCard({
         </figure>
         <main className='flex flex-col place-content-start p-4'>
           <hgroup>
-            <h3 className='text-center link'>
+            <h3 className='link text-center'>
               <Link href={href}>{title}</Link>
             </h3>
             {/* {position && <h4 className='text-center text-neutral-700 dark:text-neutral-300 font-mono text-md'>{position}</h4>} */}
           </hgroup>
-          <p className='text-center text-neutral-700 dark:text-neutral-300'>{desc}</p>
+          <p className='text-center text-neutral-700 dark:text-neutral-300'>
+            {desc}
+          </p>
         </main>
         <footer>
           <ul className='flex flex-row flex-wrap place-content-center gap-1 p-2 pb-3'>
             {skills.map((skill) => (
-              <Badge variant='outline' key={skill} >
+              <Badge variant='outline' key={skill}>
                 {skill}
               </Badge>
             ))}

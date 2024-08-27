@@ -4,7 +4,7 @@
 
 @layer base {
   body {
-    @apply  bg-neutral-100 font-mono text-neutral-950 dark:bg-neutral-950 dark:text-neutral-50;
+    @apply bg-neutral-100 font-mono text-neutral-950 dark:bg-neutral-950 dark:text-neutral-50;
   }
 
   h1,
@@ -65,13 +65,13 @@
   }
 
   hr {
-    @apply bg-neutral-400 dark:bg-neutral-800 border-0;
+    @apply border-0 bg-neutral-400 dark:bg-neutral-800;
   }
 }
 
 @layer components {
   .site-container {
-    @apply flex flex-col p-4 lg:m-8 lg:border border-neutral-200 dark:border-neutral-800;
+    @apply flex min-h-[85vh] flex-col border-neutral-200 p-4 font-mono dark:border-neutral-800 lg:m-8 lg:border;
   }
 
   .link {

@@ -1,6 +1,9 @@
 import { ImageResponse } from 'next/og';
-// App router includes @vercel/og.
-// No need to install it.
+import { Chivo_Mono, Space_Grotesk } from 'next/font/google';
+
+const mono = Chivo_Mono({
+  subsets: ['latin'],
+});
 
 export async function GET() {
   return new ImageResponse(
@@ -25,12 +28,12 @@ export async function GET() {
             <h1 tw='mb-0 text-8xl'>Hello! </h1>
             <h2 tw='mb-8 font-normal text-4xl'>
               I'm a
-              <strong tw='font-bold text-[#bf1363] mx-2'>
+              <strong tw='font-bold text-[#d14081] mx-2'>
                 {' '}
                 full-stack web developer{' '}
               </strong>
               and
-              <strong tw='font-bold text-[#bf1363] ml-2'>web designer</strong>.
+              <strong tw='font-bold text-[#d14081] ml-2'>web designer</strong>.
             </h2>
           </hgroup>
         </section>

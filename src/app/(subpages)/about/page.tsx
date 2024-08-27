@@ -1,6 +1,6 @@
 export default function About() {
   return (
-    <main className='flex min-h-[85vh] flex-row flex-wrap place-content-center place-items-center md:place-content-start md:place-items-start gap-8 p-2'>
+    <>
       <header className='' role='banner'>
         <h1 className='mb-0 text-start text-4xl'>About Me</h1>
         <article className='[&>*]:mb-2'>
@@ -56,6 +56,6 @@ export default function About() {
           <li>Figma</li>
         </ul>
       </section>
-    </main>
+    </>
   );
 }
