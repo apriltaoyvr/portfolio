@@ -1,3 +1,6 @@
+import Image from "next/image";
+import Selfie from '../../images/me.jpg';
+
 export default function About() {
   return (
     <>
@@ -35,6 +38,7 @@ export default function About() {
           </p>
         </article>
       </header>
+      <hr className='mx-8 hidden min-h-[inherit] w-[1px] lg:block' />
       <section>
         <h2 className='mt-0'>Skills</h2>
         <span>I specialize in:</span>
@@ -53,6 +57,7 @@ export default function About() {
           <li>GraphQL</li>
           <li>PostgreSQL</li>
           <li>MongoDB</li>
+          <li>PHP</li>
           <li>Figma</li>
         </ul>
       </section>

@@ -21,7 +21,7 @@ export default function ProjectCard({
 }: Props) {
   return (
     <>
-      <li className='flex min-h-full w-[450px] max-w-md list-none flex-col border border-neutral-200 dark:border-neutral-800'>
+      <li className='flex min-h-[inherit] w-[450px] max-w-md flex-grow list-none flex-col border border-neutral-200 dark:border-neutral-800'>
         <figure className='relative h-[240px] w-full max-w-md border-b border-neutral-200 dark:border-neutral-800'>
           <Image
             src={src}
@@ -33,13 +33,33 @@ export default function ProjectCard({
           />
         </figure>
         <main className='flex flex-col place-content-start p-4'>
-          <hgroup>
-            <h3 className='link text-center'>
-              <Link href={href}>{title}</Link>
+          <hgroup className='mb-2'>
+            <h3 className='link mb-0 text-center'>
+              <Link href={href} className='flex flex-row place-content-center place-items-center gap-1'>
+                {title}
+                <svg
+                  xmlns='http://www.w3.org/2000/svg'
+                  fill='none'
+                  viewBox='0 0 24 24'
+                  strokeWidth={1.5}
+                  stroke='currentColor'
+                  className='size-5'
+                >
+                  <path
+                    strokeLinecap='round'
+                    strokeLinejoin='round'
+                    d='m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25'
+                  />
+                </svg>
+              </Link>
             </h3>
-            {/* {position && <h4 className='text-center text-neutral-700 dark:text-neutral-300 font-mono text-md'>{position}</h4>} */}
+            {position && (
+              <h4 className='text-center font-sans text-neutral-700 dark:text-neutral-200'>
+                {position}
+              </h4>
+            )}
           </hgroup>
-          <p className='text-center text-neutral-700 dark:text-neutral-300'>
+          <p className='text-center text-sm text-neutral-700 dark:text-neutral-300'>
             {desc}
           </p>
         </main>

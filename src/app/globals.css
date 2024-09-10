@@ -4,7 +4,7 @@
 
 @layer base {
   body {
-    @apply bg-neutral-100 font-mono text-neutral-950 dark:bg-neutral-950 dark:text-neutral-50;
+    @apply  bg-neutral-100 font-mono text-neutral-950 dark:bg-neutral-950 dark:text-neutral-50;
   }
 
   h1,
