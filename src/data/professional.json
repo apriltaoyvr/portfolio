@@ -1,8 +1,24 @@
 [
   {
+    "src": "/projects/nupoint.jpg",
+    "href": "https://www.nupointsystems.com/",
+    "title": "Nupoint Systems",
+    "date": {
+      "start": "2024-08-01",
+      "end": null
+    },
+    "position": "Web Developer",
+    "desc": "Redesign and redevelopment of the client dashboard",
+    "skills": ["php", "symfony", "jQuery", "mySQl", "tailwindcss"]
+  },
+  {
     "src": "https://user-images.githubusercontent.com/1346839/205125380-9fbe6625-64a2-4d21-b114-5c509bbac716.png",
     "href": "https://theripper93.com/",
     "title": "Manfredini",
+    "date": {
+      "start": "2022-04-01",
+      "end": "2023-04-01"
+    },
     "position": "Web Developer and Designer",
     "desc": "Design, development, and maintenance",
     "skills": ["react", "next.js", "typescript", "mui", "css-in-js", "figma"]
@@ -11,6 +27,10 @@
     "src": "https://user-images.githubusercontent.com/95392008/201547099-a89f4b0e-692f-4b29-990e-ecf081b9bba8.png",
     "href": "https://github.com/apriltaoyvr/ambrosialab",
     "title": "Ambrosialab",
+    "date": {
+      "start": "2022-11-01",
+      "end": "2022-12-01"
+    },
     "position": "Web Developer and Designer",
     "desc": "Design and implementation",
     "skills": ["react", "typescript", "css-in-js", "figma"]
