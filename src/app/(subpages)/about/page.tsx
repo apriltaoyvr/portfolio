@@ -11,21 +11,13 @@ export default function About() {
             My name is <strong>April</strong>. I'm someone passionate about web
             development, web design, and UI/UX.
           </p>
-          <p>Two things motivated me to become a web developer:</p>
-          <ul className='bullet-list'>
-            <li>Ugly websites</li>
-            <li>
-              Sites that are purely light <em className='text-inherit'>or</em>{' '}
-              dark mode
-            </li>
-          </ul>
           <p>
             I got started by making personal themes for FoundryVTT and websites
             in CSS. Since then, I've been learning and growing as a developer
             and designer.{' '}
           </p>
           <p>
-            What started as a desire to accomodate for my personal pet peeves
+            What started as a desire to accommodate for my personal pet peeves
             became a passion to make the web more{' '}
             <strong className='text-inherit'>beautiful</strong>.
           </p>
@@ -53,11 +45,12 @@ export default function About() {
         <span>I am also familiar with:</span>
         <ul className='bullet-list'>
           <li>Node.js</li>
-          <li>APIs</li>
-          <li>GraphQL</li>
           <li>PostgreSQL</li>
           <li>MongoDB</li>
           <li>PHP</li>
+          <li>Symfony</li>
+          <li>GraphQL</li>
+          <li>Restful APIs</li>
           <li>Figma</li>
         </ul>
       </section>
