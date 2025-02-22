@@ -1,10 +1,77 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import 'tailwindcss';
+
+@custom-variant dark (&:is(.dark *));
+
+@theme {
+  --color-accent-primary: #d14081;
+  --color-accent-secondary: #f39237;
+  --color-accent-tertiary: #0e79b2;
+
+  --font-sans: var(--font-sans), ui-sans-serif, system-ui, sans-serif,
+    'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  --font-mono: var(--font-mono), ui-monospace, SFMono-Regular, Menlo, Monaco,
+    Consolas, 'Liberation Mono', 'Courier New', monospace;
+
+  --animate-accordion-down: accordion-down 0.2s ease-out;
+  --animate-accordion-up: accordion-up 0.2s ease-out;
+
+  @keyframes accordion-down {
+    from {
+      height: 0;
+    }
+    to {
+      height: var(--radix-accordion-content-height);
+    }
+  }
+  @keyframes accordion-up {
+    from {
+      height: var(--radix-accordion-content-height);
+    }
+    to {
+      height: 0;
+    }
+  }
+}
+
+@utility container {
+  margin-inline: auto;
+  padding-inline: 2rem;
+  @media (width >= --theme(--breakpoint-sm)) {
+    max-width: none;
+  }
+  @media (width >= 1400px) {
+    max-width: 1400px;
+  }
+}
+
+@utility link {
+  @apply hover:text-neutral-700 hover:transition-colors *:hover:text-neutral-700 *:hover:transition-colors dark:hover:text-neutral-400 dark:*:hover:text-neutral-400;
+}
+
+@utility bullet-list {
+  @apply ml-6 list-disc;
+
+  & > li {
+    @apply marker:text-accent-primary mt-1;
+  }
+}
+
+@utility responsive-flexbox-orientation {
+  @apply place-content-center place-items-center md:place-content-start md:place-items-start;
+}
+
+@utility mesh-gradient {
+  background-color: hsla(28, 100%, 74%, 1);
+  background-image: 
+    radial-gradient(at 80% 0%, hsla(189, 100%, 56%, 1) 0px, transparent 50%),
+    radial-gradient(at 55% 50%, hsla(340, 100%, 76%, 1) 0px, transparent 50%),
+    radial-gradient(at 0% 100%, hsla(22, 100%, 77%, 1) 0px, transparent 50%),
+    radial-gradient(at 80% 100%, hsla(242, 100%, 70%, 1) 0px, transparent 50%);
+}
 
 @layer base {
   body {
-    @apply  bg-neutral-100 font-mono text-neutral-950 dark:bg-neutral-950 dark:text-neutral-50;
+    @apply bg-neutral-100 font-mono text-neutral-950 dark:bg-neutral-950 dark:text-neutral-50;
   }
 
   h1,
@@ -45,7 +112,7 @@
   }
 
   h2 {
-    @apply mb-2 mt-4 text-4xl;
+    @apply mt-4 mb-2 text-4xl;
   }
 
   h3 {
@@ -66,29 +133,5 @@
 
   hr {
     @apply border-0 bg-neutral-400 dark:bg-neutral-800;
-  }
-}
-
-@layer components {
-  .site-container {
-    @apply flex min-h-[85vh] flex-col border-neutral-200 p-4 font-mono dark:border-neutral-800 lg:m-8 lg:border;
-  }
-
-  .link {
-    @apply hover:text-neutral-700 hover:transition-colors dark:hover:text-neutral-400 hover:[&>*]:text-neutral-700 hover:[&>*]:transition-colors dark:hover:[&>*]:text-neutral-400;
-  }
-
-  .bullet-list {
-    @apply ml-6 list-disc;
-  }
-
-  .bullet-list > li {
-    @apply mt-1 marker:text-accent-primary;
-  }
-}
-
-@layer utilities {
-  .responsive-flexbox-orientation {
-    @apply place-content-center place-items-center md:place-content-start md:place-items-start;
   }
 }

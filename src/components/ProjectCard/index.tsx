@@ -1,9 +1,10 @@
 import Link from 'next/link';
 import Image from 'next/image';
+import clsx from 'clsx';
 import { Badge } from '@/components/ui/badge';
 
 type Props = {
-  src: string;
+  src: string | null;
   href: string;
   title: string;
   position?: string;
@@ -21,21 +22,31 @@ export default function ProjectCard({
 }: Props) {
   return (
     <>
-      <li className='flex min-h-[inherit] w-[450px] max-w-md flex-grow list-none flex-col border border-neutral-200 dark:border-neutral-800'>
-        <figure className='relative h-[240px] w-full max-w-md border-b border-neutral-200 dark:border-neutral-800'>
-          <Image
-            src={src}
-            alt={'Thumbnail of ' + title}
-            fill
-            sizes='(min-width: 808px) 50vw, 100vw'
-            className='z-0 object-cover'
-            draggable={false}
-          />
+      <li className='flex min-h-[inherit] w-[450px] max-w-md grow list-none flex-col border border-neutral-200 dark:border-neutral-800'>
+        <figure
+          className={clsx(
+            'relative h-[240px] w-full max-w-md border-b border-neutral-200 dark:border-neutral-800',
+            { 'mesh-gradient': !src },
+          )}
+        >
+          {src && (
+            <Image
+              src={src}
+              alt={`Thumbnail of ${title}`}
+              fill
+              sizes='(min-width: 808px) 50vw, 100vw'
+              className='z-0 object-cover'
+              draggable={false}
+            />
+          )}
         </figure>
         <main className='flex flex-col place-content-start p-4'>
           <hgroup className='mb-2'>
             <h3 className='link mb-0 text-center'>
-              <Link href={href} className='flex flex-row place-content-center place-items-center gap-1'>
+              <Link
+                href={href}
+                className='flex flex-row place-content-center place-items-center gap-1'
+              >
                 {title}
                 <svg
                   xmlns='http://www.w3.org/2000/svg'

@@ -1,6 +1,5 @@
-import Link from './Link';
-import { ModeToggle } from './ModeToggle';
-import { HamburgerMenuIcon } from '@radix-ui/react-icons';
+import Link from 'next/link';
+import { AlignJustify } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import {
   DropdownMenu,
@@ -9,11 +8,12 @@ import {
   DropdownMenuTrigger,
   DropdownMenuSeparator,
 } from '@/components/ui/dropdown-menu';
+import { ModeToggle } from './ModeToggle';
 
 export default function Navbar() {
   return (
     <nav
-      className='sticky top-0 z-50 py-2 backdrop-blur-lg md:mb-2 md:px-2 md:backdrop-blur-sm'
+      className='sticky top-0 z-50 py-2 backdrop-blur-lg md:mb-2 md:px-2 md:backdrop-blur-xs'
       role='navigation'
     >
       <div className='hidden flex-row place-items-center justify-between md:flex'>
@@ -27,24 +27,24 @@ export default function Navbar() {
           <DropdownMenu>
             <DropdownMenuTrigger asChild>
               <Button variant='ghost' size='icon'>
-                <HamburgerMenuIcon className='h-[1.2rem] w-[1.2rem]' />
+                <AlignJustify className='size-[1.2rem]' />
                 <span className='sr-only'>Activate navbar</span>
               </Button>
             </DropdownMenuTrigger>
             <DropdownMenuContent className='mx-2' align='center'>
               <DropdownMenuItem>
-                <Link href='/'>Home</Link>
+                <Link href='/' className='link lowercase'>Home</Link>
               </DropdownMenuItem>
               <DropdownMenuSeparator />
               <DropdownMenuItem>
-                <Link href='/about'>About</Link>
+                <Link href='/about' className='link lowercase'>About</Link>
               </DropdownMenuItem>
               <DropdownMenuItem>
-                <Link href='/experience'>Experience</Link>
+                <Link href='/experience' className='link lowercase'>Experience</Link>
               </DropdownMenuItem>
               <DropdownMenuSeparator />
               <DropdownMenuItem>
-                <Link href='https://github.com/apriltaoyvr'>Github</Link>
+                <Link href='https://github.com/apriltaoyvr' className='link lowercase'>Github</Link>
               </DropdownMenuItem>
             </DropdownMenuContent>
           </DropdownMenu>
@@ -63,7 +63,7 @@ const NavContent = () => {
       <header className='flex h-full flex-row place-items-center'>
         <Link href='/'>Home</Link>
         <hr className='mx-1 h-4 w-[1px]' aria-hidden={true} />
-        <section className='flex flex-row'>
+        <section className='flex flex-row gap-2'>
           <Link href='/about'>About</Link>
           <Link href='/experience'>Experience</Link>
         </section>
