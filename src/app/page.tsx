@@ -5,7 +5,8 @@ export default function Home() {
         <hgroup>
           <h1 className='mb-0'>Hello!</h1>
           <h2 className='mb-8 font-normal'>
-            I'm a <strong>full-stack web developer</strong>.
+            I'm a <strong>full-stack web developer</strong> specializing in{' '}
+            <strong>React</strong>.
           </h2>
           <span>
             My focus is on creating interesting, clean websites and having fun
