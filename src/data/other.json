@@ -22,7 +22,7 @@
   },
   {
     "src": "https://user-images.githubusercontent.com/95392008/252136157-ce6380fb-5161-4767-866c-f7fcbb8b08f0.png",
-    "href": "https://alice-i18n.vercel.app/",
+    "href": "https://github.com/apriltaoyvr/alice-i18n",
     "title": "Alice i18n",
     "desc": "Lewis Carrol's Alice in Wonderland in multiple languages",
     "skills": ["astro", "typescript", "tailwind"]
