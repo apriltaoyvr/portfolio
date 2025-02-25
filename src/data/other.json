@@ -14,20 +14,6 @@
     "skills": ["react", "next.js", "supabase", "postgresql", "prisma"]
   },
   {
-    "src": "/projects/exegesis.jpg",
-    "href": "https://lte.gitbook.io/thomson-exegesis",
-    "title": "Lenore Thomson Exegesis",
-    "desc": "Revival of a wiki for understanding the writings of Lenore Thomson",
-    "skills": ["gitbook", "documentation", "markdown"]
-  },
-  {
-    "src": "https://user-images.githubusercontent.com/95392008/252136157-ce6380fb-5161-4767-866c-f7fcbb8b08f0.png",
-    "href": "https://github.com/apriltaoyvr/alice-i18n",
-    "title": "Alice i18n",
-    "desc": "Lewis Carrol's Alice in Wonderland in multiple languages",
-    "skills": ["astro", "typescript", "tailwind"]
-  },
-  {
     "src": "https://user-images.githubusercontent.com/95392008/147394179-6777840b-3554-4e9c-b4c3-50cd99616ee2.png",
     "href": "https://github.com/apriltaoyvr/dracula-foundry",
     "title": "Dracula Foundry",
