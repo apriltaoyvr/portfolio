@@ -1,22 +1,37 @@
 import ProjectCard from '@/components/ProjectCard';
-import professionalProjects from '@/data/professional.json';
-import otherProjects from '@/data/other.json';
+import paidWork from '@/data/professional.json';
+import contributedWork from '@/data/contributions.json';
+import personalWork from '@/data/personal.json';
 
 export default function Experience() {
   return (
     <>
       <section role='group' className='h-full w-full'>
-        <h2 className='text-center md:text-start'>Experience</h2>
+        <h2 className='text-center md:text-start'>Professional Experience</h2>
         <ul className='responsive-flexbox-orientation flex flex-row flex-wrap gap-2 md:place-content-start'>
-          {professionalProjects.map((project) => (
+          {paidWork.map((project) => (
             <ProjectCard key={project.title} {...project} />
           ))}
         </ul>
       </section>
+      <section>
+        <hgroup>
+          <h2>Contributed to</h2>
+        </hgroup>
+        <section>
+          <ul className='responsive-flexbox-orientation flex flex-row flex-wrap gap-2 md:place-content-start'>
+            {contributedWork.map((project) => (
+              <ProjectCard key={project.title} {...project} />
+            ))}
+          </ul>
+        </section>
+      </section>
       <section role='group' className='h-full w-full'>
-        <h2>Personal Projects</h2>
+        <hgroup>
+          <h2>Personal Projects</h2>
+        </hgroup>
         <section className='responsive-flexbox-orientation flex flex-row flex-wrap gap-2 md:place-content-start'>
-          {otherProjects.map((project) => (
+          {personalWork.map((project) => (
             <ProjectCard key={project.title} {...project} />
           ))}
         </section>

@@ -5,7 +5,7 @@
     "title": "Nupoint Systems",
     "date": {
       "start": "2024-08-01",
-      "end": null
+      "end": "2025-01-01"
     },
     "position": "Web Developer",
     "desc": "Redesign and redevelopment of the client dashboard",
@@ -21,7 +21,7 @@
     },
     "position": "Web Developer and Designer",
     "desc": "Design, development, and maintenance",
-    "skills": ["react", "next.js", "typescript", "mui", "css-in-js", "figma"]
+    "skills": ["react", "next.js", "typescript", "mui", "css-in-js", "figma", "i18n"]
   },
   {
     "src": "https://user-images.githubusercontent.com/95392008/201547099-a89f4b0e-692f-4b29-990e-ecf081b9bba8.png",

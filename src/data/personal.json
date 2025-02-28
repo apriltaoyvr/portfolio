@@ -1,0 +1,23 @@
+[
+  {
+    "src": "/projects/ipa-ref.png",
+    "href": "https://ipa-ref.vercel.app/",
+    "title": "IPA Reference",
+    "desc": "An IPA transcription look-up site",
+    "skills": ["react", "next.js", "typescript", "api", "wiktionary", "tailwind"]
+  },
+  {
+    "src": "https://user-images.githubusercontent.com/95392008/271808147-0b6ad594-4692-4011-8dc5-ac3617ba6741.png",
+    "href": "https://slime-rancher.vercel.app/",
+    "title": "Slime Rancher API",
+    "desc": "A GraphQL and RESTful API for Slime Rancher",
+    "skills": ["react", "next.js", "typescript", "graphql", "api", "tailwind"]
+  },
+  {
+    "src": "https://user-images.githubusercontent.com/95392008/147394179-6777840b-3554-4e9c-b4c3-50cd99616ee2.png",
+    "href": "https://github.com/apriltaoyvr/dracula-foundry",
+    "title": "Dracula Foundry",
+    "desc": "A dark theme for FoundryVTT based on the Dracula palette",
+    "skills": ["scss", "javascript"]
+  }
+]
