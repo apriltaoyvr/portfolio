@@ -44,7 +44,7 @@ export default function ProjectCard({
             <h3 className='link mb-0 text-center'>
               <Link
                 href={href}
-                className='flex flex-row place-content-center place-items-center gap-1 transition-colors hover:text-muted-foreground'
+                className='hover:text-muted-foreground flex flex-row place-content-center place-items-center gap-1 transition-colors'
               >
                 {title}
                 <svg
