@@ -22,12 +22,11 @@ export default function ProjectCard({
 }: Props) {
   return (
     <>
-      <li className='flex min-h-[inherit] w-[450px] max-w-md grow list-none flex-col border border-neutral-200 dark:border-neutral-800'>
+      <li className='flex min-h-[inherit] w-[450px] max-w-md grow list-none flex-col border'>
         <figure
-          className={clsx(
-            'relative h-[240px] w-full max-w-md border-b border-neutral-200 dark:border-neutral-800',
-            { 'mesh-gradient': !src },
-          )}
+          className={clsx('relative h-[240px] w-full max-w-md border-b', {
+            'mesh-gradient': !src,
+          })}
         >
           {src && (
             <Image
@@ -45,7 +44,7 @@ export default function ProjectCard({
             <h3 className='link mb-0 text-center'>
               <Link
                 href={href}
-                className='flex flex-row place-content-center place-items-center gap-1'
+                className='flex flex-row place-content-center place-items-center gap-1 transition-colors hover:text-muted-foreground'
               >
                 {title}
                 <svg
@@ -65,14 +64,10 @@ export default function ProjectCard({
               </Link>
             </h3>
             {position && (
-              <h4 className='text-center font-sans text-neutral-700 dark:text-neutral-200'>
-                {position}
-              </h4>
+              <h4 className='text-muted text-center font-sans'>{position}</h4>
             )}
           </hgroup>
-          <p className='text-center text-sm text-neutral-700 dark:text-neutral-300'>
-            {desc}
-          </p>
+          <p className='text-muted text-center text-sm'>{desc}</p>
         </main>
         <footer>
           <ul className='flex flex-row flex-wrap place-content-center gap-1 p-2 pb-3'>

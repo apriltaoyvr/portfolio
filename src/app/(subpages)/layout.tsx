@@ -1,11 +1,11 @@
-export default function SubpageLayout({
+export default function InnerBoxLayout({
   children,
 }: {
   children: React.ReactNode;
 }) {
   return (
-    <main className='flex min-h-[85vh] flex-row flex-wrap place-content-center place-items-center gap-8 p-2 md:place-content-start md:place-items-start'>
+    <div className='flex flex-row flex-wrap place-content-start place-items-start md:place-content-center md:place-items-center gap-8 px-8 py-4'>
       {children}
-    </main>
+    </div>
   );
 }

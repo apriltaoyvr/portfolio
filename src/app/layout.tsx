@@ -49,7 +49,7 @@ export default function RootLayout({
     <html lang='en' suppressHydrationWarning>
       <body className={`${mono.variable} ${sans.variable}`}>
         <Providers>
-          <div className='flex min-h-[85vh] flex-col border-neutral-300 p-4 font-mono dark:border-neutral-800 lg:m-8 lg:border'>
+          <div className='border-border flex min-h-[85vh] flex-col font-mono lg:m-8 lg:border'>
             <Navbar />
             {children}
           </div>
