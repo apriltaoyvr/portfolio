@@ -9,23 +9,27 @@ export default function About() {
         <article>
           <section className='*:mb-2'>
             <p>
-              My name is <strong>April</strong>. I'm a full-stack developer
-              passionate about web development and design.
+              Hi, I’m April. I'm a full-stack developer with a passion for
+              crafting intuitive and visually appealing web experiences.
             </p>
             <p>
-              My interest in web development began by tinkering with CSS. I
-              hate(d) how many sites and applications were light-mode only. So I
-              decided to create some personal themes and the rest is
-              history.{' '}
+              My interest in web development started with a very simple pet
+              peeve: I hated how many sites had light themes but no
+              alternatives. So I started experimenting with CSS to create custom
+              themes that suited my tastes. That initial tinkering sparked a
+              deeper passion for building thoughtful, user-friendly designs and
+              functional web apps.
             </p>
             <p>
-              What started as a desire to accommodate for my personal pet peeves
-              became a passion to learn and create.
+              What began as a personal project quickly evolved into a full
+              commitment to learning more about web technologies and design
+              principles.
             </p>
+
             <p>
-              Aside from programming, some of my interests include: linguistics,
-              psychology, dance, fashion, and cRPGs. I also love cats and
-              pigeons :)
+              Outside of coding, I’m into linguistics, psychology, dance,
+              fashion, and classic role-playing games (cRPGs). I’m also a big
+              fan of cats and pigeons. I find them adorable.
             </p>
           </section>
         </article>
@@ -34,7 +38,7 @@ export default function About() {
         <h2 className='mt-0'>Skills</h2>
         <section>
           <span>I specialize in:</span>
-          <ul className='ml-6 list-disc *:marker:text-accent *:mt-1'>
+          <ul className='*:marker:text-accent ml-6 list-disc *:mt-1'>
             <li>React (Next.js)</li>
             <li>Typescript</li>
             <li>CSS Libraries (Tailwind, SCSS, CSS-in-JS)</li>
@@ -44,7 +48,7 @@ export default function About() {
         </section>
         <section>
           <span>I am also familiar with:</span>
-          <ul className='ml-6 list-disc *:marker:text-accent *:mt-1'>
+          <ul className='*:marker:text-accent ml-6 list-disc *:mt-1'>
             <li>Python</li>
             <li>PHP</li>
             <li>Node.js</li>
