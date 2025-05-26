@@ -3,7 +3,7 @@
     "src": "",
     "href": "https://limbus-logs.vercel.app/",
     "title": "Select Star SQL",
-    "desc": "Translation of the site's text to French",
+    "desc": "Translated and implemented the French text for an interactive SQL tutorial",
     "skills": ["i18n", "jekyll"]
   },
   {

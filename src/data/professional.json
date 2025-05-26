@@ -4,7 +4,7 @@
     "href": "https://www.nupointsystems.com/",
     "title": "Nupoint Systems",
     "position": "Full-stack Web Developer",
-    "desc": "Redesign and redevelopment of the client dashboard",
+    "desc": "Implementation of design handoff and refactoring of the client dashboard",
     "skills": ["php", "symfony", "jquery", "mysql", "linux", "tailwindcss"]
   },
   {
@@ -12,7 +12,7 @@
     "href": "https://theripper93.com/",
     "title": "Manfredini",
     "position": "Front-end Developer",
-    "desc": "Design, development, and maintenance",
+    "desc": "Design, development, and maintenance of main site and wiki",
     "skills": ["react", "nextjs", "typescript", "mui", "css-in-js", "figma"]
   },
   {
@@ -20,7 +20,7 @@
     "href": "https://github.com/apriltaoyvr/ambrosialab",
     "title": "Ambrosialab",
     "position": "Web Developer",
-    "desc": "Design and implementation",
+    "desc": "Design and implementation of main site",
     "skills": ["react", "typescript", "css-in-js", "i18n", "figma"]
   }
 ]
