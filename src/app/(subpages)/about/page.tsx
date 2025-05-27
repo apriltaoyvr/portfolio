@@ -35,24 +35,24 @@ export default function About() {
           </article>
         </section>
         <section className='*:not-last:mb-2'>
-          <h2 className='text-start mt-0'>Skills</h2>
+          <h2 className='mt-0 text-start'>Skills</h2>
           <section>
-            <span>I specialize in:</span>
+            <h3>Notable:</h3>
             <ul className='*:marker:text-muted-foreground ml-6 list-disc *:mt-1'>
               <li>React (Next.js)</li>
               <li>Typescript</li>
+              <li>PostgreSQL</li>
+              <li>REST APIs</li>
               <li>CSS Libraries (Tailwind, SCSS, CSS-in-JS)</li>
               <li>Component Libraries (MUI, Radix, Shadcn)</li>
-              <li>Restful APIs</li>
             </ul>
           </section>
           <section>
-            <span>I am also familiar with:</span>
+            <h3>Other:</h3>
             <ul className='*:marker:text-muted-foreground ml-6 list-disc *:mt-1'>
               <li>Python</li>
               <li>PHP</li>
               <li>Node.js</li>
-              <li>PostgreSQL</li>
               <li>MongoDB</li>
               <li>GraphQL</li>
               <li>Astro</li>

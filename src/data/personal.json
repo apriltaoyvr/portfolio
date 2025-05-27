@@ -3,7 +3,7 @@
     "src": "/projects/ipa-ref.png",
     "href": "https://ipa-ref.vercel.app/",
     "title": "IPA Reference",
-    "desc": "An IPA transcription look-up site",
+    "desc": "A site for looking up IPA transcriptions of English words",
     "skills": ["react", "nextjs", "typescript", "api", "tailwind"]
   },
   {
