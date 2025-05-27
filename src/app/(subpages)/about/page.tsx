@@ -3,8 +3,8 @@ import Selfie from './me.jpg';
 
 export default function About() {
   return (
-    <section className='flex max-h-[90vh] flex-row flex-wrap'>
-      <article className='*:not-last:mb-2'>
+    <>
+      <article className='*:mb-4'>
         <section>
           <h1 className='text-start text-4xl'>About Me</h1>
           <article>
@@ -35,10 +35,10 @@ export default function About() {
           </article>
         </section>
         <section className='*:not-last:mb-2'>
-          <h2 className='mt-0'>Skills</h2>
+          <h2 className='text-start mt-0'>Skills</h2>
           <section>
             <span>I specialize in:</span>
-            <ul className='*:marker:text-accent ml-6 list-disc *:mt-1'>
+            <ul className='*:marker:text-muted-foreground ml-6 list-disc *:mt-1'>
               <li>React (Next.js)</li>
               <li>Typescript</li>
               <li>CSS Libraries (Tailwind, SCSS, CSS-in-JS)</li>
@@ -48,7 +48,7 @@ export default function About() {
           </section>
           <section>
             <span>I am also familiar with:</span>
-            <ul className='*:marker:text-accent ml-6 list-disc *:mt-1'>
+            <ul className='*:marker:text-muted-foreground ml-6 list-disc *:mt-1'>
               <li>Python</li>
               <li>PHP</li>
               <li>Node.js</li>
@@ -61,17 +61,16 @@ export default function About() {
           </section>
         </section>
       </article>
-      <section>
-        <figure>
-          <Image
-            src={Selfie}
-            alt='A photo of myself taken by Giorgio Verzoletto'
-          />
-          <figcaption className='mt-2 text-sm'>
-            A photo of myself taken by Giorgio Verzoletto
-          </figcaption>
-        </figure>
-      </section>
-    </section>
+      <figure>
+        <Image
+          src={Selfie}
+          alt='A photo of myself taken by Giorgio Verzoletto'
+          className='rounded-xl'
+        />
+        <figcaption className='mt-2 text-sm'>
+          A photo of myself taken by Giorgio Verzoletto
+        </figcaption>
+      </figure>
+    </>
   );
 }

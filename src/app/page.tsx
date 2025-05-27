@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 export default function Home() {
   return (
     <article className='flex flex-col'>
@@ -9,8 +11,14 @@ export default function Home() {
         </h2>
       </hgroup>
       <span>
-        My focus is on creating interesting, clean websites and having fun with
-        them.
+        My focus is on creating{' '}
+        <Link
+          href='/projects'
+          className='hover:text-foreground/75 underline decoration-accent'
+        >
+          interesting, clean websites
+        </Link>{' '}
+        and having fun with them.
       </span>
     </article>
   );

@@ -68,7 +68,7 @@ const FooterItems = () => {
 export default function Navbar() {
   return (
     <nav
-      className='bg-background/75 sticky top-0 z-50 border-b px-2 py-2'
+      className='bg-background/75 sticky top-0 z-50 border-b px-2 py-2 md:rounded-t-xl'
       role='navigation'
     >
       {/* Desktop menu */}

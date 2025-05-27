@@ -21,10 +21,10 @@ export default function ProjectCard({
   skills,
 }: Props) {
   return (
-    <li className='bg-background flex min-h-[inherit] w-[450px] max-w-md list-none flex-col border'>
+    <li className='bg-background flex min-h-[inherit] w-sm list-none flex-col rounded-xl border md:w-md'>
       <figure
         className={clsx('relative h-[240px] w-full max-w-md border-b', {
-          'mesh-gradient': !src,
+          'mesh-gradient rounded-t-xl': !src,
         })}
       >
         {src && (
@@ -33,7 +33,7 @@ export default function ProjectCard({
             alt={`Thumbnail of ${title}`}
             fill
             sizes='(min-width: 808px) 50vw, 100vw'
-            className='z-0 object-cover'
+            className='z-0 rounded-t-xl object-cover'
             draggable={false}
           />
         )}
@@ -43,9 +43,11 @@ export default function ProjectCard({
           <h3 className='link mb-0 text-center'>
             <Link
               href={href}
-              className='hover:text-muted-foreground/90 flex flex-row place-content-center place-items-center gap-1 transition-colors'
+              className='flex flex-row place-content-center place-items-center gap-1'
             >
-              {title}
+              <span className='hover:text-foreground/75 transition-colors'>
+                {title}
+              </span>
               <svg
                 xmlns='http://www.w3.org/2000/svg'
                 fill='none'

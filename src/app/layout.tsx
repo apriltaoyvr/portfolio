@@ -48,12 +48,12 @@ export default function RootLayout({
   return (
     <html lang='en' suppressHydrationWarning>
       <body
-        className={`${mono.variable} ${sans.variable} min-h-screen font-sans lg:p-8`}
+        className={`${mono.variable} ${sans.variable} min-h-screen font-sans md:p-8`}
       >
         <Providers>
-          <div className='bg-background/90 border-border backdrop-blur-sm lg:border'>
+          <div className='bg-background/90 md:shadow-xl md:rounded-xl'>
             <Navbar />
-            <main className='flex max-h-[90vh] min-h-[90vh] flex-col place-content-center place-items-center gap-4 overflow-auto p-8 text-pretty'>
+            <main className='flex flex-col flex-wrap min-h-screen md:min-h-[90dvh] md:max-h-[90dvh] gap-4 overflow-auto p-4 py-8 md:p-8 text-pretty justify-center-safe items-center-safe'>
               {children}
             </main>
           </div>
