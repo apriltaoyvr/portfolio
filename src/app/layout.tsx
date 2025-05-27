@@ -47,11 +47,15 @@ export default function RootLayout({
   const shouldInjectToolbar = process.env.NODE_ENV === 'development';
   return (
     <html lang='en' suppressHydrationWarning>
-      <body className={`${mono.variable} ${sans.variable}`}>
+      <body
+        className={`${mono.variable} ${sans.variable} min-h-screen font-sans lg:p-8`}
+      >
         <Providers>
-          <div className='border-border flex min-h-[85vh] flex-col font-mono lg:m-8 lg:border'>
+          <div className='bg-background/90 border-border backdrop-blur-sm lg:border'>
             <Navbar />
-            {children}
+            <main className='flex max-h-[90vh] min-h-[90vh] flex-col place-content-center place-items-center gap-4 overflow-auto p-8 text-pretty'>
+              {children}
+            </main>
           </div>
           {shouldInjectToolbar && <VercelToolbar />}
         </Providers>
