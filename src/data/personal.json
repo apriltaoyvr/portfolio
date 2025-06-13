@@ -4,7 +4,7 @@
     "href": "https://ipa-ref.vercel.app/",
     "title": "IPA Reference",
     "desc": "A site for looking up IPA transcriptions of English words",
-    "skills": ["react", "nextjs", "typescript", "api", "tailwind"]
+    "skills": ["react", "nextjs", "typescript", "api", "tailwind", "cypress"]
   },
   {
     "src": "https://user-images.githubusercontent.com/95392008/271808147-0b6ad594-4692-4011-8dc5-ac3617ba6741.png",
