@@ -1,10 +1,18 @@
 [
   {
+    "src": "/projects/stretch.jpg",
+    "href": "",
+    "title": "Stretch Yoga",
+    "position": "Wordpress Developer",
+    "desc": "Initial design and development of a custom Wordpress theme and SEO",
+    "skills": ["wordpress", "php", "scss", "seo"]
+  },
+  {
     "src": "/projects/nupoint.jpg",
     "href": "https://www.nupointsystems.com/",
     "title": "Nupoint Systems",
     "position": "Full-stack Web Developer",
-    "desc": "Implementation of design handoff and refactoring of the client dashboard",
+    "desc": "Implementation of design handoff, refactoring, and optimization of the client dashboard",
     "skills": ["php", "symfony", "jquery", "mysql", "linux", "tailwindcss"]
   },
   {
@@ -12,7 +20,7 @@
     "href": "https://theripper93.com/",
     "title": "Manfredini",
     "position": "Front-end Developer",
-    "desc": "Design, development, and maintenance of main site and wiki",
+    "desc": "Design, development, and maintenance of main site and user wiki",
     "skills": ["react", "nextjs", "typescript", "mui", "css-in-js", "figma"]
   },
   {
@@ -20,7 +28,7 @@
     "href": "https://github.com/apriltaoyvr/ambrosialab",
     "title": "Ambrosialab",
     "position": "Web Developer",
-    "desc": "Design and implementation of main site",
+    "desc": "Design and development of main site",
     "skills": ["react", "typescript", "css-in-js", "i18n", "figma"]
   }
 ]

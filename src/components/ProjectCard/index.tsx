@@ -20,6 +20,40 @@ export default function ProjectCard({
   desc,
   skills,
 }: Props) {
+  const projectTitle = () => {
+    <hgroup className='mb-2'>
+      <h3 className='link mb-0 text-center'>
+        <Link
+          href={href}
+          className='flex flex-row place-content-center place-items-center gap-1'
+        >
+          <span className='hover:text-foreground/75 transition-colors'>
+            {title}
+          </span>
+          <svg
+            xmlns='http://www.w3.org/2000/svg'
+            fill='none'
+            viewBox='0 0 24 24'
+            strokeWidth={1.5}
+            stroke='currentColor'
+            className='size-5'
+          >
+            <path
+              strokeLinecap='round'
+              strokeLinejoin='round'
+              d='m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25'
+            />
+          </svg>
+        </Link>
+      </h3>
+      {position && (
+        <h4 className='text-muted-foreground text-center font-sans'>
+          {position}
+        </h4>
+      )}
+    </hgroup>;
+  };
+
   return (
     <li className='bg-background flex min-h-[inherit] w-sm list-none flex-col rounded-xl border md:w-md'>
       <figure
@@ -41,28 +75,30 @@ export default function ProjectCard({
       <main className='flex flex-col place-content-start p-4'>
         <hgroup className='mb-2'>
           <h3 className='link mb-0 text-center'>
-            <Link
-              href={href}
-              className='flex flex-row place-content-center place-items-center gap-1'
-            >
-              <span className='hover:text-foreground/75 transition-colors'>
-                {title}
-              </span>
-              <svg
-                xmlns='http://www.w3.org/2000/svg'
-                fill='none'
-                viewBox='0 0 24 24'
-                strokeWidth={1.5}
-                stroke='currentColor'
-                className='size-5'
+            {href ? (
+              <Link
+                href={href}
+                className='hover:text-foreground/75 flex flex-row place-content-center place-items-center gap-1 transition-colors'
               >
-                <path
-                  strokeLinecap='round'
-                  strokeLinejoin='round'
-                  d='m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25'
-                />
-              </svg>
-            </Link>
+                {title}
+                <svg
+                  xmlns='http://www.w3.org/2000/svg'
+                  fill='none'
+                  viewBox='0 0 24 24'
+                  strokeWidth={1.5}
+                  stroke='currentColor'
+                  className='size-5'
+                >
+                  <path
+                    strokeLinecap='round'
+                    strokeLinejoin='round'
+                    d='m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25'
+                  />
+                </svg>
+              </Link>
+            ) : (
+              <>{title}</>
+            )}
           </h3>
           {position && (
             <h4 className='text-muted-foreground text-center font-sans'>
