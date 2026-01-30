@@ -9,22 +9,22 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@astrojs/react": "^4.2.5",
-    "@astrojs/vercel": "^8.1.4",
+    "@astrojs/react": "^4.4.2",
+    "@astrojs/vercel": "^9.0.4",
     "@paper-design/shaders-react": "^0.0.71",
-    "@tailwindcss/vite": "^4.1.4",
-    "@types/react": "^19.1.2",
-    "@types/react-dom": "^19.1.2",
-    "astro": "^5.7.5",
-    "astro-loading-indicator": "^0.7.0",
+    "@tailwindcss/vite": "^4.1.18",
+    "@types/react": "^19.2.10",
+    "@types/react-dom": "^19.2.3",
+    "astro": "^5.17.1",
+    "astro-loading-indicator": "^0.7.1",
     "clsx": "^2.1.1",
-    "motion": "^12.9.2",
-    "react": "^19.1.0",
-    "react-dom": "^19.1.0",
-    "sharp": "^0.34.1",
-    "tailwindcss": "^4.1.4"
+    "motion": "^12.29.2",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "sharp": "^0.34.5",
+    "tailwindcss": "^4.1.18"
   },
   "devDependencies": {
-    "@tailwindcss/typography": "^0.5.16"
+    "@tailwindcss/typography": "^0.5.19"
   }
 }
