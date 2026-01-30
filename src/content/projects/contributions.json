@@ -7,7 +7,7 @@
     "skills": ["i18n", "jekyll"]
   },
   {
-    "src": "/src/assets/projects/limbuslogs.jpg",
+    "src": "/projects/limbuslogs.jpg",
     "href": "https://limbus-logs.vercel.app/",
     "title": "Limbus Logs",
     "desc": "Refactoring a Limbus Company fan project to React and PostgreSQL",

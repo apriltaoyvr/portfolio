@@ -1,6 +1,6 @@
 [
     {
-    "src": "/src/assets/projects/stretch.jpg",
+    "src": "/projects/stretch.jpg",
     "href": "https://www.stretchvancouver.com/",
     "title": "Stretch Yoga",
     "position": "Wordpress Developer",
@@ -8,7 +8,7 @@
     "skills": ["wordpress", "php", "scss", "aws", "seo"]
   },
   {
-    "src": "/src/assets/projects/ipa-ref.png",
+    "src": "/projects/ipa-ref.png",
     "href": "https://ipa-ref.vercel.app/",
     "title": "IPA Reference",
     "desc": "A site for looking up IPA transcriptions of English words",
