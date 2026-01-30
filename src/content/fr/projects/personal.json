@@ -1,0 +1,31 @@
+[
+  {
+    "src": "/projects/stretch.jpg",
+    "href": "https://www.stretchvancouver.com/",
+    "title": "Stretch Yoga",
+    "position": "Développeuse WordPress",
+    "desc": "Conception et développement initial d'un thème WordPress personnalisé et SEO",
+    "skills": ["wordpress", "php", "scss", "aws", "seo"]
+  },
+  {
+    "src": "/projects/ipa-ref.png",
+    "href": "https://ipa-ref.vercel.app/",
+    "title": "IPA Reference",
+    "desc": "Un site pour rechercher les transcriptions API de mots anglais",
+    "skills": ["react", "nextjs", "typescript", "api", "tailwind", "cypress"]
+  },
+  {
+    "src": "https://user-images.githubusercontent.com/95392008/271808147-0b6ad594-4692-4011-8dc5-ac3617ba6741.png",
+    "href": "https://slime-rancher.vercel.app/",
+    "title": "Slime Rancher API",
+    "desc": "Une API GraphQL et RESTful pour Slime Rancher",
+    "skills": ["react", "nextjs", "typescript", "graphql", "api", "tailwind"]
+  },
+  {
+    "src": "https://user-images.githubusercontent.com/95392008/147394179-6777840b-3554-4e9c-b4c3-50cd99616ee2.png",
+    "href": "https://github.com/apriltaoyvr/dracula-foundry",
+    "title": "Dracula Foundry",
+    "desc": "Un thème sombre pour FoundryVTT basé sur la palette Dracula",
+    "skills": ["scss", "javascript"]
+  }
+]

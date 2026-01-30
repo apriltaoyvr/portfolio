@@ -1,0 +1,52 @@
+---
+import H1 from '../../components/ui/h1.astro';
+import InfoLayout from '../../layouts/InfoLayout.astro';
+import ExternalLink from '../../components/ui/external-link.astro';
+---
+
+<InfoLayout>
+  <div
+    class='p-4 sm:pt-8 sm:px-12 pb-20 min-h-dvh flex flex-col justify-between gap-32'
+  >
+    <section class='text-pretty text-zinc-300 space-y-4'>
+      <H1 className='mb-4'> Salut, je suis April </H1>
+      <article class='text-base space-y-2'>
+        <p>
+          Je suis <strong>développeuse full-stack</strong> spécialisée en Next.js et
+          UI/UX. Je travaille avec Typescript, React, SQL, PHP et divers langages et
+          bibliothèques de stylisation (Tailwind, SCSS, styled-components, MUI, shadcn).
+        </p>
+        <p>
+          Ce qui a commencé comme un passe-temps personnel s'est rapidement transformé
+          en un engagement total envers l'apprentissage des technologies web et des
+          principes de design. Je suis passionnée par la création de designs réfléchis
+          et conviviaux ainsi que d'applications web fonctionnelles.
+        </p>
+        <hr class='w-5 place-self-center text-zinc-600' />
+        <p>
+          En dehors de la programmation, je m'intéresse à la danse, la linguistique,
+          la mode et les jeux de rôle classiques (cRPGs).
+        </p>
+        <p>
+          J'aime la plupart des disciplines axées sur le mouvement (par ex. yoga,
+          callisthénie) mais la danse est de loin ma préférée. Mon rêve est de faire le poirier avec aisance. J'ai fait et je fais encore parfois du
+          mannequinat à côté. J'aime expérimenter avec les formes et les lignes en
+          mouvement.
+        </p>
+        <p>Aussi une grande fan de chats et de pigeons. Je les trouve adorables.</p>
+      </article>
+      <figure>
+        <img src='/me.webp' alt='April' class='w-full max-w-md rounded-lg' />
+        <figcaption
+          class='flex flex-row flex-wrap text-sm gap-1 text-zinc-500 my-1'
+        >
+          Photo prise par <ExternalLink
+            className='text-sm'
+            href='https://www.instagram.com/brightvibes.ca/'
+            >Bright Vibes</ExternalLink
+          >
+        </figcaption>
+      </figure>
+    </section>
+  </div>
+</InfoLayout>

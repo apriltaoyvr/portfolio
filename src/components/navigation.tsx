@@ -1,12 +1,23 @@
 import clsx from 'clsx/lite';
 import { useState } from 'react';
 import { AnimatePresence, motion } from 'motion/react';
+import { useTranslations, useTranslatedPath, type Locale } from '../i18n/utils';
+import { languages } from '../i18n/ui';
+
+type NavigationProps = {
+  children: React.ReactNode;
+  locale?: Locale;
+  currentPath?: string;
+};
 
 export default function Navigation({
   children,
-}: {
-  children: React.ReactNode;
-}) {
+  locale = 'en',
+  currentPath = '/',
+}: NavigationProps) {
+  const t = useTranslations(locale);
+  const translatePath = useTranslatedPath(locale);
+  const route = currentPath.split('/').pop() || '';
   const [isOpen, setIsOpen] = useState(false);
 
   return (
@@ -22,6 +33,17 @@ export default function Navigation({
               className='hidden lg:flex gap-4'
             >
               {children}
+              <select
+                className='w-fit text-base sm:text-2xl px-5 py-2 rounded-full text-zinc-500 bg-transparent hover:text-white hover:bg-zinc-100/20 hover:outline-2 outline-offset-2 outline-zinc-100/20 transition-all duration-300 ease-in-out cursor-pointer'
+                onChange={(e) => { window.location.href = e.target.value; }}
+                value={useTranslatedPath(locale)(`/${route}`)}
+              >
+                {Object.entries(languages).map(([l, label]) => (
+                  <option key={l} value={useTranslatedPath(l as Locale)(`/${route}`)} className='bg-black'>
+                    {label}
+                  </option>
+                ))}
+              </select>
             </motion.div>
 
             <motion.dialog
@@ -34,17 +56,46 @@ export default function Navigation({
               className='lg:hidden absolute z-50 w-full h-full flex flex-col gap-4 top-0 bg-zinc-900/20 backdrop-blur-md'
             >
               <div className='fixed bottom-20 sm:bottom-32 left-4 sm:left-8 flex flex-col items-start justify-center gap-4'>
-                <MobileLink href='/about'>
-                  About
+                <MobileLink href={translatePath('/about')}>
+                  {t('nav.about')}
                 </MobileLink>
 
-                <MobileLink href='/resume'>
-                  Resume
+                <MobileLink href={translatePath('/resume')}>
+                  {t('nav.resume')}
                 </MobileLink>
 
-                <MobileLink href='/contact'>
-                  Contact
+                <MobileLink href={translatePath('/contact')}>
+                  {t('nav.contact')}
                 </MobileLink>
+
+                <motion.select
+                  initial={{
+                    transform: 'translateY(100px)',
+                    filter: 'blur(20px)',
+                    opacity: 0,
+                  }}
+                  transition={{ type: 'spring', stiffness: 25, damping: 2, mass: 0.1 }}
+                  animate={{
+                    transform: 'translateY(0px)',
+                    filter: 'blur(0px)',
+                    opacity: 1,
+                  }}
+                  exit={{
+                    transform: 'translateY(100px)',
+                    filter: 'blur(20px)',
+                    opacity: 0,
+                  }}
+                  className='w-fit text-lg sm:text-2xl text-zinc-100 bg-transparent cursor-pointer appearance-none p-0'
+                  onClick={(e) => e.stopPropagation()}
+                  onChange={(e) => { window.location.href = e.target.value; }}
+                  value={useTranslatedPath(locale)(`/${route}`)}
+                >
+                  {Object.entries(languages).map(([l, label]) => (
+                    <option key={l} value={useTranslatedPath(l as Locale)(`/${route}`)} className='px-0 bg-black'>
+                      {label}
+                    </option>
+                  ))}
+                </motion.select>
 
                 <motion.button
                   type='button'
@@ -90,7 +141,7 @@ export default function Navigation({
                       d='M8.97 8.97a.75.75 0 0 1 1.06 0L12 10.94l1.97-1.97a.75.75 0 1 1 1.06 1.06L13.06 12l1.97 1.97a.75.75 0 0 1-1.06 1.06L12 13.06l-1.97 1.97a.75.75 0 0 1-1.06-1.06L10.94 12l-1.97-1.97a.75.75 0 0 1 0-1.06'
                     />
                   </svg>
-                  Close
+                  {t('nav.close')}
                 </motion.button>
               </div>
             </motion.dialog>

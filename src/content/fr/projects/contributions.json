@@ -1,0 +1,16 @@
+[
+  {
+    "src": "",
+    "href": "https://selectstarsql.com/",
+    "title": "Select Star SQL",
+    "desc": "Traduction et implémentation du texte français pour un tutoriel SQL interactif",
+    "skills": ["i18n", "jekyll"]
+  },
+  {
+    "src": "/projects/limbuslogs.jpg",
+    "href": "https://limbus-logs.vercel.app/",
+    "title": "Limbus Logs",
+    "desc": "Refactorisation d'un projet fan de Limbus Company vers React et PostgreSQL",
+    "skills": ["react", "next.js", "postgresql", "prisma"]
+  }
+]

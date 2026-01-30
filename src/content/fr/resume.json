@@ -1,0 +1,76 @@
+{
+  "employment": [
+    {
+      "title": "Développeuse Full Stack",
+      "company": "Nupoint Systems Inc.",
+      "location": "Surrey, Canada",
+      "date": { "start": "Août 2024", "end": "Septembre 2025" },
+      "bullets": [
+        "Refactorisation et optimisation d'une base de code PHP (Symfony) et JS (jQuery) pour améliorer la performance, l'évolutivité et la maintenabilité",
+        "Conteneurisation des services applicatifs avec Docker pour rationaliser les flux de développement et assurer des environnements de déploiement cohérents",
+        "Affichage dynamique de données SIG à partir d'une base de données MySQL via Google Maps et des tableaux de données",
+        "Implémentation de maquettes de design pour un tableau de bord client avec Tailwind",
+        "Assurance de la compatibilité inter-navigateurs et de la réactivité pour les appareils mobiles",
+        "Intégration de l'API WordPress pour l'affichage des actualités",
+        "Documentation de la base de code pour faciliter le développement futur"
+      ]
+    },
+    {
+      "title": "Développeuse Front End",
+      "company": "Manfredini",
+      "location": "Ferrara, Italie",
+      "date": { "start": "Avril 2022", "end": "Avril 2023" },
+      "bullets": [
+        "Refactorisation d'un site HTML et jQuery vers React (Next.js) et Typescript, avec conception d'une architecture front-end évolutive et maintenable",
+        "Implémentation et modification de composants MUI avec thématisation et stylisation personnalisées (via CSS-in-JS) pour assurer la cohérence selon les directives de marque",
+        "Ajout de l'authentification utilisateur et de la gestion de compte avec Better Auth",
+        "Gestion d'une base de données PostgreSQL Supabase pour la gestion des comptes et les données soumises par les utilisateurs",
+        "Intégration d'API tierces pour fournir des fonctionnalités supplémentaires et améliorer l'expérience utilisateur",
+        "Création et itération de mises en page avec Figma, permettant la contribution du client",
+        "Rédaction et révision des traductions anglaises pour appuyer le marketing"
+      ]
+    },
+    {
+      "title": "Développeuse Web",
+      "company": "Ambrosialab",
+      "location": "Bologne, Italie",
+      "date": { "start": "Mai 2022", "end": "Décembre 2022" },
+      "bullets": [
+        "Développement d'un site web adapté aux mobiles ayant augmenté le trafic mobile",
+        "Création de maquettes de design dans Figma pour la contribution du client",
+        "Implémentation de l'internationalisation anglais et italien, permettant une plus grande portée mondiale",
+        "Rédaction et révision des traductions anglaises d'Ambrosialab pour appuyer le marketing"
+      ]
+    }
+  ],
+  "personalProjects": [
+    {
+      "title": "Développeuse WordPress",
+      "company": "Stretch Yoga",
+      "location": "Vancouver, Canada",
+      "date": { "start": "Août 2025", "end": "Novembre 2025" },
+      "bullets": [
+        "Conception et développement initial d'un thème WordPress personnalisé avec SCSS",
+        "Développement et rédaction de contenu pour plusieurs pages, création de modèles évolutifs pour les sections boutique, locations et horaires de cours",
+        "Optimisation SEO du contenu de blog par l'ajout de paragraphes de résumé et la restructuration des articles avec des éléments HTML sémantiques",
+        "Optimisation et gestion des tables MySQL",
+        "Rationalisation de l'installation WordPress en réduisant les plugins obligatoires à 4",
+        "Hébergement des serveurs de développement et de staging via AWS Lightsail"
+      ]
+    }
+  ],
+  "certificates": [
+    {
+      "title": "DELF B2",
+      "date": { "start": "Décembre 2024" },
+      "desc": "Certificat officiel de compétence en langue française délivré par le ministère français de l'Éducation nationale"
+    },
+    {
+      "title": "Google IT Support Professional",
+      "date": { "start": "Juillet 2024" },
+      "desc": ""
+    }
+  ],
+  "skills": ["React", "Next.js", "Javascript", "Typescript", "Python", "PHP", "PostgreSQL", "MongoDB", "Tailwind"],
+  "languages": ["Anglais", "Français", "Cantonais"]
+}
