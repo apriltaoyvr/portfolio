@@ -63,6 +63,7 @@ const route = getRouteFromUrl(Astro.url);
     </section>
     <section class='flex items-center gap-4 sm:gap-8 '>
       <ExternalLink href={getRelativeLocaleUrl(lang, '/about')} openNewTab={false}>{t('nav.about')}</ExternalLink>
+      <ExternalLink href={getRelativeLocaleUrl(lang, '/resume')} openNewTab={false}>{t('nav.resume')}</ExternalLink>
       <ExternalLink href={getRelativeLocaleUrl(lang, '/contact')} openNewTab={false}>{t('nav.contact')}</ExternalLink>
     
     </section>
