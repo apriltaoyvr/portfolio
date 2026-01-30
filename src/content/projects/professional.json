@@ -1,0 +1,36 @@
+[
+  {
+    "src": "/src/assets/projects/nupoint.jpg",
+    "href": "https://www.nupointsystems.com/",
+    "title": "Nupoint Systems",
+    "position": "Full-stack Web Developer",
+    "desc": "Implementation of design handoff, refactoring, and optimization of the client dashboard",
+    "skills": ["php", "symfony", "jquery", "mysql", "linux", "tailwindcss", "docker"]
+  },
+  {
+    "src": "https://user-images.githubusercontent.com/1346839/205125380-9fbe6625-64a2-4d21-b114-5c509bbac716.png",
+    "href": "https://theripper93.com/",
+    "title": "Manfredini",
+    "position": "Front-end Developer",
+    "desc": "Design, development, and maintenance of main site, user wiki, and feedback board",
+    "skills": [
+      "react",
+      "nextjs",
+      "typescript",
+      "mui",
+      "css-in-js",
+      "postgresql",
+      "better-auth",
+      "supabase",
+      "figma"
+    ]
+  },
+  {
+    "src": "https://user-images.githubusercontent.com/95392008/201547099-a89f4b0e-692f-4b29-990e-ecf081b9bba8.png",
+    "href": "https://github.com/apriltaoyvr/ambrosialab",
+    "title": "Ambrosialab",
+    "position": "Web Developer",
+    "desc": "Design and development of main site",
+    "skills": ["react", "typescript", "css-in-js", "i18n", "figma"]
+  }
+]

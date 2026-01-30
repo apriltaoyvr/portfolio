@@ -1,0 +1,52 @@
+---
+import H1 from '../components/ui/h1.astro';
+import InfoLayout from '../layouts/InfoLayout.astro';
+import ExternalLink from '../components/ui/external-link.astro';
+---
+
+<InfoLayout>
+  <div
+    class='p-4 sm:pt-8 sm:px-12 pb-20 min-h-dvh flex flex-col justify-between gap-32'
+  >
+    <section class='text-pretty text-zinc-300 space-y-4'>
+      <H1 className='mb-4'> Hi, I'm April </H1>
+      <article class='text-base space-y-2'>
+        <p>
+          I'm a <strong>full-stack developer</strong> specializing in Next.js and
+          UI/UX. I work with Typescript, React, SQL, PHP, and various styling languages
+          and libraries (Tailwind, SCSS, styled-components, MUI, shadcn).
+        </p>
+        <p>
+          What began as a personal hobby quickly evolved into a full commitment
+          to learning more about web technologies and design principles. I'm
+          passionate about building thoughtful, user-friendly designs and
+          functional web apps
+        </p>
+        <hr class='w-5 place-self-center text-zinc-600' />
+        <p>
+          Beyond programming, I’m into dance, linguistics, fashion, and classic
+          role-playing games (cRPGs).
+        </p>
+        <p>
+          I like most movement-oriented disciplines (e.g. yoga, calisthenics)
+          but dance is my favourite by far. My dream is to do a free handstand
+          with ease. I have done and sometimes still do modelling on the side. I
+          enjoy experimenting with shapes and lines in movement.
+        </p>
+        <p>Also a big fan of cats and pigeons. I find them adorable.</p>
+      </article>
+      <figure>
+        <img src='/me.webp' alt='April' class='w-full max-w-md rounded-lg' />
+        <figcaption
+          class='flex flex-row flex-wrap text-sm gap-1 text-zinc-500 my-1'
+        >
+          Photo taken by <ExternalLink
+            className='text-sm'
+            href='https://www.instagram.com/brightvibes.ca/'
+            >Bright Vibes</ExternalLink
+          >
+        </figcaption>
+      </figure>
+    </section>
+  </div>
+</InfoLayout>

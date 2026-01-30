@@ -1,0 +1,31 @@
+---
+import H1 from '../components/ui/h1.astro';
+import InfoLayout from '../layouts/InfoLayout.astro';
+import ExternalLink from '../components/ui/external-link.astro';
+---
+
+<InfoLayout>
+  <div
+    class='p-4 sm:pt-8 sm:px-12 pb-20 min-h-dvh flex flex-col justify-between'
+  >
+    <section class='space-y-4 text-zinc-300'>
+      <hgroup>
+      <H1 className='mb-4'>Contact</H1>
+        <p>
+          Interested in working together or learning more about me? Below are some
+          places you can find me.
+        </p>
+
+      </hgroup>
+
+      <section>
+        
+              <ExternalLink href='https://www.linkedin.com/in/apriltaoyvr/'
+                >LinkedIn</ExternalLink
+              >
+              <ExternalLink href='https://github.com/apriltaoyvr/'>Github</ExternalLink>
+
+      </section>
+    </section>
+  </div>
+</InfoLayout>

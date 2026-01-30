@@ -1,0 +1,84 @@
+---
+import H1 from '../components/ui/h1.astro';
+import InfoLayout from '../layouts/InfoLayout.astro';
+import ExternalLink from '../components/ui/external-link.astro';
+import resume from '../content/resume.json';
+
+const { employment, personalProjects, certificates, skills, languages } = resume;
+---
+
+<InfoLayout>
+  <div
+    class='p-4 sm:pt-8 sm:px-12 pb-20 min-h-dvh'
+  >
+    <div class='flex flex-col sm:flex-row sm:items-end sm:justify-between gap-4 mb-8'>
+      <H1 className='mb-0'>Resume</H1>
+      <!-- <ExternalLink href='/resume.pdf'>Download PDF</ExternalLink> -->
+    </div>
+
+    <div class='grid grid-cols-1 lg:grid-cols-[1fr_280px] gap-12'>
+      <div>
+        <section>
+          <h2 class='text-2xl font-semibold text-zinc-100 mb-6'>Employment History</h2>
+          <div class='space-y-8'>
+            {employment.map((job) => (
+              <div>
+                <h3 class='text-lg text-zinc-100 font-medium'>{job.title} <span class='text-zinc-400'>at</span> {job.company}</h3>
+                <p class='text-sm text-zinc-400'>{job.location} &middot; {job.date.start}{job.date.end ? ` — ${job.date.end}` : ' — Present'}</p>
+                <ul class='mt-2 list-disc list-inside space-y-1 text-sm text-zinc-300 marker:text-zinc-500'>
+                  {job.bullets.map((b) => <li>{b}</li>)}
+                </ul>
+              </div>
+            ))}
+          </div>
+        </section>
+
+        <section class='mt-10'>
+          <h2 class='text-2xl font-semibold text-zinc-100 mb-6'>Personal Projects</h2>
+          <div class='space-y-8'>
+            {personalProjects.map((job) => (
+              <div>
+                <h3 class='text-lg text-zinc-100 font-medium'>{job.title} <span class='text-zinc-400'>at</span> {job.company}</h3>
+                <p class='text-sm text-zinc-400'>{job.location} &middot; {job.date.start}{job.date.end ? ` — ${job.date.end}` : ' — Present'}</p>
+                <ul class='mt-2 list-disc list-inside space-y-1 text-sm text-zinc-300 marker:text-zinc-500'>
+                  {job.bullets.map((b) => <li>{b}</li>)}
+                </ul>
+              </div>
+            ))}
+          </div>
+        </section>
+
+        <section class='mt-10'>
+          <h2 class='text-2xl font-semibold text-zinc-100 mb-6'>Certificates</h2>
+          <div class='space-y-4'>
+            {certificates.map((cert) => (
+              <div>
+                <h3 class='text-lg text-zinc-100 font-medium'>{cert.title}</h3>
+                <p class='text-sm text-zinc-400'>{cert.date.start}{cert.date.end ? ` — ${cert.date.end}` : ''}</p>
+                {cert.desc && <p class='text-sm text-zinc-300 mt-1'>{cert.desc}</p>}
+              </div>
+            ))}
+          </div>
+        </section>
+      </div>
+
+      <aside class='space-y-8'>
+        <section>
+          <h2 class='text-lg font-semibold text-zinc-100 mb-2'>Skills</h2>
+          <div class='flex flex-wrap gap-2'>
+            {skills.map((s) => (
+              <span class='text-xs text-zinc-400 bg-zinc-800 rounded px-2 py-0.5'>{s}</span>
+            ))}
+          </div>
+        </section>
+
+        <section>
+          <h2 class='text-lg font-semibold text-zinc-100 mb-2'>Languages</h2>
+          <ul class='space-y-1 text-sm text-zinc-300'>
+            {languages.map((l) => <li>{l}</li>)}
+          </ul>
+        </section>
+      </aside>
+    </div>
+  </div>
+</InfoLayout>

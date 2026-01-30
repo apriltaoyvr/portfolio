@@ -1,0 +1,76 @@
+{
+  "employment": [
+    {
+      "title": "Full Stack Developer",
+      "company": "Nupoint Systems Inc.",
+      "location": "Surrey, Canada",
+      "date": { "start": "August 2024", "end": "September 2025" },
+      "bullets": [
+        "Refactorisation and optimization of a PHP (Symfony) and JS (jQuery) codebase to improve performance, scalability, and maintainability",
+        "Containerized application services using Docker to streamline development workflows and ensure consistent deployment environments",
+        "Displaying GIS data from a MySQL database dynamically via Google Maps and data tables",
+        "Implementation of design mock-ups for a client dashboard using Tailwind",
+        "Ensuring cross-browser compatibility and responsiveness for mobile devices",
+        "Integrated WordPress API for displaying news updates",
+        "Documentation of the codebase to assist future development"
+      ]
+    },
+    {
+      "title": "Front End Developer",
+      "company": "Manfredini",
+      "location": "Ferrara, Italy",
+      "date": { "start": "April 2022", "end": "April 2023" },
+      "bullets": [
+        "Refactoring an HTML and jQuery site to React (Next.js) and Typescript, architecting a scalable and maintainable front-end codebase",
+        "Implemented and modified MUI components with custom theming and styling (via CSS-in-JS) for consistency according to brand guidelines",
+        "Added user authentication and account management with Better Auth",
+        "Managed a Supabase PostgreSQL database for account management and user submitted data",
+        "Integrated third-party APIs to provide additional functionality and improve user experience",
+        "Created and iterated on site layouts using Figma, allowing for client input",
+        "Copy-writing and editing of English translations to assist with marketing"
+      ]
+    },
+    {
+      "title": "Web Developer",
+      "company": "Ambrosialab",
+      "location": "Bologna, Italy",
+      "date": { "start": "May 2022", "end": "December 2022" },
+      "bullets": [
+        "Developed a mobile-friendly website that increased mobile traffic",
+        "Created design mockups in Figma for client input",
+        "Implemented English and Italian internationalisation, allowing for greater global reach",
+        "Copy-writing and editing of Ambrosialab's English translations to assist with marketing"
+      ]
+    }
+  ],
+  "personalProjects": [
+    {
+      "title": "Wordpress Developer",
+      "company": "Stretch Yoga",
+      "location": "Vancouver, Canada",
+      "date": { "start": "August 2025", "end": "November 2025" },
+      "bullets": [
+        "Initial design and development of a custom Wordpress theme using SCSS",
+        "Developed and populated content for multiple pages, creating scalable templates for shop, rentals, and class schedule sections to accommodate future content updates",
+        "Implemented SEO optimization across blog content by adding summary paragraphs, restructuring posts with semantic HTML elements",
+        "Optimization and management of MySQL tables",
+        "Streamlined WordPress installation by reducing mandatory plugins to 4",
+        "Hosting development and staging servers via AWS Lightsail"
+      ]
+    }
+  ],
+  "certificates": [
+    {
+      "title": "DELF B2",
+      "date": { "start": "December 2024", "end": "" },
+      "desc": "Official French language proficiency certificate awarded by the French Ministry of Education"
+    },
+    {
+      "title": "Google IT Support Professional",
+      "date": { "start": "July 2024", "end": "" },
+      "desc": ""
+    }
+  ],
+  "skills": ["React", "Next.js", "Javascript", "Typescript", "Python", "PHP", "PostgreSQL", "MongoDB", "Tailwind"],
+  "languages": ["English", "French", "Cantonese"]
+}
