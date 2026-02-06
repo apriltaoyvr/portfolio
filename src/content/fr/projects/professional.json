@@ -3,7 +3,7 @@
     "src": "/projects/nupoint.jpg",
     "href": "https://www.nupointsystems.com/",
     "title": "Nupoint Systems",
-    "position": "Développeuse Web Full-stack",
+    "position": "Développeuse Full-stack",
     "desc": "Implémentation de maquettes de design, refactorisation et optimisation du tableau de bord client",
     "skills": ["php", "symfony", "jquery", "mysql", "linux", "tailwindcss", "docker"]
   },

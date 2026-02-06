@@ -3,7 +3,7 @@
     "src": "/projects/nupoint.jpg",
     "href": "https://www.nupointsystems.com/",
     "title": "Nupoint Systems",
-    "position": "Full-stack Web Developer",
+    "position": "Full-stack Developer",
     "desc": "Implementation of design handoff, refactoring, and optimization of the client dashboard",
     "skills": ["php", "symfony", "jquery", "mysql", "linux", "tailwindcss", "docker"]
   },
