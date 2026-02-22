@@ -18,7 +18,7 @@
     {
       "title": "Développeuse Front End",
       "company": "Manfredini",
-      "location": "Ferrara, Italie",
+      "location": "Ferrare, Italie",
       "date": { "start": "Avril 2022", "end": "Avril 2023" },
       "bullets": [
         "Refactorisation d'un site HTML et jQuery vers React (Next.js) et Typescript, avec conception d'une architecture front-end évolutive et maintenable",
@@ -33,7 +33,7 @@
     {
       "title": "Développeuse Web",
       "company": "Ambrosialab",
-      "location": "Bologne, Italie",
+      "location": "Ferrare, Italie",
       "date": { "start": "Mai 2022", "end": "Décembre 2022" },
       "bullets": [
         "Développement d'un site web adapté aux mobiles ayant augmenté le trafic mobile",
