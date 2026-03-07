@@ -17,7 +17,7 @@ const route = getRouteFromUrl(Astro.url);
 ---
 
 <footer
-  class='py-4 px-4 sm:px-12 w-full sticky bottom-0 flex items-center justify-between bg-black'
+  class='py-4 px-4 sm:px-12 w-full fixed bottom-0 flex items-center justify-between bg-black'
 >
   <div class='flex flex-row items-center gap-4 sm:gap-8'>
     <section class='flex gap-1'>
@@ -71,20 +71,23 @@ const route = getRouteFromUrl(Astro.url);
     <section class='flex items-center gap-2 sm:gap-8'>
       <ExternalLink
         href={getRelativeLocaleUrl(lang, '/about')}
+        className='md:text-base text-small'
         openNewTab={false}>{t('nav.about')}</ExternalLink
       >
       <ExternalLink
         href={getRelativeLocaleUrl(lang, '/resume')}
+        className='md:text-base text-small'
         openNewTab={false}>{t('nav.resume')}</ExternalLink
       >
       <ExternalLink
         href={getRelativeLocaleUrl(lang, '/contact')}
+        className='md:text-base text-small'
         openNewTab={false}>{t('nav.contact')}</ExternalLink
       >
     </section>
     <div class='relative flex items-center'>
       <select
-        class='text-zinc-500 bg-transparent hover:text-zinc-100 cursor-pointer text-base appearance-none pr-4'
+        class='text-zinc-500 bg-transparent hover:text-zinc-100 cursor-pointer md:text-base text-small appearance-none pr-4'
         onchange='window.location.href = this.value'
       >
         {
