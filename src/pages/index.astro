@@ -1,39 +1,38 @@
 ---
-import H1 from "../components/ui/h1.astro";
-import Link from "../components/ui/link.astro";
-import Navigation from "../components/navigation";
-import RootLayout from "../layouts/RootLayout.astro";
-import GrainBackground from "../components/grain-background";
+import H1 from '../components/ui/h1.astro';
+import Link from '../components/ui/link.astro';
+import Navigation from '../components/navigation';
+import RootLayout from '../layouts/RootLayout.astro';
+import GrainBackground from '../components/grain-background';
+import { getLangFromUrl, useTranslations, useTranslatedPath } from '../i18n/utils';
+
+const locale = getLangFromUrl(Astro.url);
+const t = useTranslations(locale);
+const translatePath = useTranslatedPath(locale);
 ---
 
 <RootLayout>
-	<main>
-		<div class="group relative w-full min-h-dvh flex items-center justify-center">
-			<div class="absolute w-full h-dvh -z-10">
-				<GrainBackground 
-					client:load
-				/>
-			</div>
+  <main
+    class='group relative w-full min-h-dvh flex items-center justify-center'
+  >
+    <div class='absolute w-full h-dvh -z-10'>
+      <GrainBackground client:load />
+    </div>
 
-			<div class="p-4 sm:p-8 absolute w-full h-dvh flex flex-col justify-between z-10">
-				<div>
-					<H1 size="large"> April <br /> Tao </H1>
-				</div>
+    <header
+      class='p-4 sm:p-8 absolute w-full h-dvh flex flex-col justify-between z-10'
+    >
+      <H1 size='large'> April Tao </H1>
 
-				<div>
-					<div class="mb-2 sm:mb-4 flex items-center justify-between">
-						<div class="flex items-center gap-4">
-							<Link href="/projects">Portfolio</Link>
-						</div>
+      <nav class='mb-2 sm:mb-4 flex items-center justify-between'>
+        <Link href='/projects'>Portfolio</Link>
 
-						<Navigation client:load locale="en" currentPath="/">
-							<Link href="/about" variant="secondary">About</Link>
-							<Link href="/resume" variant="secondary">Resume</Link>
-							<Link href="/contact" variant="secondary">Contact</Link>
-						</Navigation>
-					</div>
-				</div>
-			</div>
-		</div>
-	</main>
+        <Navigation client:load locale={locale} currentPath='/'>
+          <Link href={translatePath('/about')} variant='secondary'>{t('nav.about')}</Link>
+          <Link href={translatePath('/resume')} variant='secondary'>{t('nav.resume')}</Link>
+          <Link href={translatePath('/contact')} variant='secondary'>{t('nav.contact')}</Link>
+        </Navigation>
+      </nav>
+    </header>
+  </main>
 </RootLayout>

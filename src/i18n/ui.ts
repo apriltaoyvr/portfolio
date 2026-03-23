@@ -8,6 +8,7 @@ export const showDefaultLang = false;
 
 export const ui = {
   en: {
+    'nav.home': 'Home',
     'nav.about': 'About',
     'nav.resume': 'Resume',
     'nav.contact': 'Contact',
@@ -15,6 +16,7 @@ export const ui = {
     'lang.switch': 'FR',
   },
   fr: {
+    'nav.home': 'Accueil',
     'nav.about': 'À propos',
     'nav.resume': 'CV',
     'nav.contact': 'Contact',
