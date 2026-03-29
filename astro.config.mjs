@@ -15,16 +15,14 @@ export default defineConfig({
 
   integrations: [react()],
 
-  experimental: {
-    fonts: [
-      {
-        provider: fontProviders.google(),
-        name: 'Geist',
-        cssVariable: '--font-geist',
-        fallbacks: ['Inter', 'sans-serif'],
-      },
-    ],
-  },
+  fonts: [
+    {
+      provider: fontProviders.google(),
+      name: 'Geist',
+      cssVariable: '--font-geist',
+      fallbacks: ['Inter', 'sans-serif'],
+    },
+  ],
 
   adapter: vercel(),
 
